@@ -12,7 +12,7 @@
 </script>
 <div style='width:600px'>cholesterol <script>jmolCheckbox('spin on','spin off','spin on/off')</script></div>
 <div style='width:600px'>try:  <script>jmolCheckbox("spacefill off","spacefill on","toggle display as spheres")</script></div>
-<div style='width:600px'>try2:  <script>jmolButton("select atomno = 11", "select give atom");</script></div>
+<div style='width:600px'>try2:  <script>jmolButton("select atomno = 11;color [128,0,128]", "select give atom");</script></div>
 
 ### side-by-side
 
