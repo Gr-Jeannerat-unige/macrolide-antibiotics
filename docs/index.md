@@ -1,7 +1,7 @@
 # macrolide-antibiotics
-work in progress
+Work in progress
 
-[cholesterol - would like to add ergosterol and control both (md)](page4)
+[cholesterol -  (md)](page4)
 
 [Compare cholesterol and ergosterol (md)](compare)
 
