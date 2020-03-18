@@ -7,11 +7,14 @@ work in progress82---11 ====>233333++))
 
 
 [link to page3 (html)](page3)
+From resolver of compound name:
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150&"></script>
-work in progress6
+
+Second molecule (add "&isfirst=false")
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=aspirin&inline&width=150&isfirst=false"></script>
-ttAAo:
+
+Third molecule (local)
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/cholesterol-3D.sdf&inline=1&isfirst=false"></script>
 sdfsdf
