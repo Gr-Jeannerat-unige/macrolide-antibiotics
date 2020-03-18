@@ -12,8 +12,8 @@
 </script>
 <div style='width:600px'>cholesterol <script>jmolCheckbox('spin on','spin off','spin on/off')</script></div>
 <div style='width:600px'>try:  <script>jmolCheckbox("spacefill off","spacefill on","toggle display as spheres")</script></div>
-<div style='width:600px'>try2:  <script>jmolButton("select atomno = 40;color [128,0,128]", "Highlight H pointing up 40 ");</script></div>
-<div style='width:600px'>try2:  <script>jmolButton("select atomno = 41;color [128,0,128]", "Highlight H pointing up 41");</script></div>
+<div style='width:600px'>try2:  <script>jmolButton("select atomno = 40;color [0,128,0]", "Highlight H pointing up 40 ");</script></div>
+<div style='width:600px'>try2:  <script>jmolButton("select atomno = 41;color [0,64,0]", "Highlight H pointing up 41");</script></div>
 
 ### side-by-side
 
