@@ -7,7 +7,7 @@ work in progress6
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=aspirin&inline&width=150&isfirst=false"></script>
 ttAAo:
 
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://github.com/Gr-Jeannerat-unige/macrolide-antibiotics/blob/master/data/cholesterol-3D.sdf&link=3D structure of cholesterol local"></script>
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/blob/master/data/cholesterol-3D.sdf&link=3D structure of cholesterol local"></script>
 ttAAfsdfo232:
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&inline=1&isfirst=false"></script>
