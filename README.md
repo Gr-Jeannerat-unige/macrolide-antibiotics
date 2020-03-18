@@ -1,5 +1,5 @@
 # macrolide-antibiotics
-work in progress
+work in progress2
 
 
 <script src=https://chemapps.stolaf.edu/jmol/files/JSmolMin2.js></script>
