@@ -5,10 +5,11 @@ Work in progress!
 
 [Cholesterol -  (md)](page4)
 
-[test page3 (html)](page3)
+[Test page3 (html)](page3)
 
+[Test page2](page2)
 
-[test page55 (md)](page5)
+[Test page55 (md)](page5)
 
 
 From resolver of compound name:
@@ -44,6 +45,5 @@ work in progress3
 <td>tylenol<div style="width:450px;height:200px"><script src="https://chemapps.stolaf.edu/jmol/jmol.php?model=tylenol&inline=1&isfirst=false&width=250&height=200"></script></div></td>
 <td>tylenol flat<div style="width:450px;height:200px"><script src="https://chemapps.stolaf.edu/jmol/jmol.php?model=tylenol&inline=1&isfirst=false&width=250&height=200&image2d=true"></script></div></td>
 
-[test page2](page2)
 
 

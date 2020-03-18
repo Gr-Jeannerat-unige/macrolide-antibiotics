@@ -24,24 +24,15 @@ function sync() {
 </script>
 
 
-
-<table border = 1 cellpadding=10>
-<tr>
-
-<td>
-<form id=info>
 <input type=checkbox id=drive onClick=sync() accessKey="1">Synchronize
-</form>
 <script>
 jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;;", "A")
 </script>
 <script>
 jmolApplet(400,"load data/ergosterol-3D.sdf;calculate structure;cartoon on;color cartoon structure;rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B");
 </script>
-</td>
-<td>
-    rotate z 29.14; rotate y 124.68; rotate z -71.35;
-<br><br>
+
+
 <code><a href='javascript:jmolScript("reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,128,0]", "A")'>Side view cholesterol</a></code>
 <code><a href='javascript:jmolScript("reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;", "B")'>Side view ergosterol</a></code>
 
@@ -66,8 +57,5 @@ print script("show orientation")
 </code>
 </pre>
 
-</td>
-</tr>
 
-</table>
 
