@@ -18,3 +18,4 @@ https://www.macinchem.org/reviews/jsmol/jsmol.php
 <div style='width:600px'>cholesterol local model <script>jmolCheckbox('spin on','spin off','spin on/off')</script></div>
 <div style='width:600px'>try:  <script>jmolCheckbox("spacefill off","spacefill on","toggle display as spheres")</script></div>
 <div style='width:600px'>try2:  <script>jmolButton("spacefill on", "display as vdW spheres");</script></div>
+<div style='width:600px'><script>jmolButton("select atomno = 41;color [0,128,0]", "Highlight");</script> key difference with ergosterol</div>
