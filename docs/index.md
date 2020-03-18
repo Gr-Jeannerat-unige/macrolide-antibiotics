@@ -1,5 +1,5 @@
 # macrolide-antibiotics
-work in progress82---11 ====>
+work in progress82---11 ====>2
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150&"></script>
 work in progress6
@@ -7,6 +7,10 @@ work in progress6
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=aspirin&inline&width=150&isfirst=false"></script>
 ttAAo:
 [pointer to molecule](data/cholesterol-3D.sdf)
+
+[pointer to molecule ST Olaf](https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf)
+
+
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/cholesterol-3D.sdf&link=3D structure of cholesterol local"></script>
 ttAAfsdfo232:
 
