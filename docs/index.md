@@ -1,10 +1,10 @@
 # macrolide-antibiotics
-work in progress225555
+work in progress8
 
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline"></script>
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150&"></script>
 work in progress6
 
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=aspirin&inline&width=50&isfirst=false"></script>
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=aspirin&inline&width=150&isfirst=false"></script>
 
 work in progress3
 
