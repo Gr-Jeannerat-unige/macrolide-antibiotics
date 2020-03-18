@@ -30,14 +30,12 @@ View <a href='javascript:jmolScript("reset; rotate z 33.34; rotate y 125.99; rot
 Highlight Hax(7) cholesterol <a href='javascript:jmolScript("select atomno = 41;color [0,255,0]", "A")'>on</a>
 <a href='javascript:jmolScript("select atomno = 41;color [255,255,255]", "A")'>off</a>
 
-<button type="button" onclick="javascript:sync();">Click Me!</button>
 Set 
 <a href='javascript:jmolScript("script APPLET * \"background white\"","A")'> white </a>
  or
 <a href='javascript:jmolScript("script APPLET * \"background black\"","A")'> black </a>background.
 <br><br>
-<a href='javascript:jmolScript("console","A")'>Cholesterol console</a>
-<br><br>
+<a href='javascript:jmolScript("console","A")'>Cholesterol console</a>/
 <a href='javascript:jmolScript("console","B")'>Ergosterol console</a>
 print script("show orientation")
 
