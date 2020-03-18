@@ -23,23 +23,24 @@ function sync() {
 </script>
 
 <script>
-jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;;", "A")
+jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;;", "A");
 </script>
+
 <script>
 jmolApplet(400,"load data/ergosterol-3D.sdf;calculate structure;cartoon on;color cartoon structure;rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B");
-sync();
-
 </script>
+<script>
+    sync();
+</script>
+<a href='javascript:jmolScript("reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,128,0]", "A")'>Side view cholesterol</a>
+<a href='javascript:jmolScript("reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;", "B")'>Side view ergosterol</a>
+
+<a href='javascript:jmolScript("reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,128,0]", "A")'>Reset cholesterol</a>
 
 
-<code><a href='javascript:jmolScript("reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,128,0]", "A")'>Side view cholesterol</a></code>
-<code><a href='javascript:jmolScript("reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;", "B")'>Side view ergosterol</a></code>
+<a href='javascript:jmolScript("reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B")'>Reset ergosterol</a>
+<a href='javascript:jmolScript("select atomno = 41;color [0,128,0]", "A")'>Highlight Hax(7)</a><
 
-<code><a href='javascript:jmolScript("reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,128,0]", "A")'>Reset cholesterol</a></code>
-<br><br>
-<code><a href='javascript:jmolScript("reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B")'>Reset ergosterol</a></code>
-<code><a href='javascript:jmolScript("select atomno = 41;color [0,128,0]", "A")'>Highlight Hax(7)</a></code>
-<br><br>
 
 
 Set 
