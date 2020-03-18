@@ -10,6 +10,11 @@ ttAAo:
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://github.com/Gr-Jeannerat-unige/macrolide-antibiotics/blob/master/data/cholesterol-3D.sdf&link=3D structure of cholesterol"></script>
 ttAAo232:
 
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&link=3D structure of cholesterol"></script>
+
+fsads
+
+
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://github.com/Gr-Jeannerat-unige/macrolide-antibiotics/blob/master/data/menthol_allHexplicit.mol&image2d=true&link=3D structure of cholesterol"></script>
 
 work in progress3
