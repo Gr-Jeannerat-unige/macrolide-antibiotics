@@ -29,9 +29,9 @@ next:
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/menthol_allHexplicit.mol&link=Pop 3D structure of menthol"></script>
 
 work in progress3
-<td>caffeine<div style="width:450px;height:400px"><script src="https://chemapps.stolaf.edu/jmol/jmol.php?model=caffeine&inline=1&isfirst=false&width=250&height=200"></script></div></td>
-<td>tylenol<div style="width:450px;height:400px"><script src="https://chemapps.stolaf.edu/jmol/jmol.php?model=tylenol&inline=1&isfirst=false&width=250&height=200"></script></div></td>
-<td>tylenol flat<div style="width:450px;height:400px"><script src="https://chemapps.stolaf.edu/jmol/jmol.php?model=tylenol&inline=1&isfirst=false&width=250&height=200&image2d=true"></script></div></td>
+<td>caffeine<div style="width:450px;height:200px"><script src="https://chemapps.stolaf.edu/jmol/jmol.php?model=caffeine&inline=1&isfirst=false&width=250&height=200"></script></div></td>
+<td>tylenol<div style="width:450px;height:200px"><script src="https://chemapps.stolaf.edu/jmol/jmol.php?model=tylenol&inline=1&isfirst=false&width=250&height=200"></script></div></td>
+<td>tylenol flat<div style="width:450px;height:200px"><script src="https://chemapps.stolaf.edu/jmol/jmol.php?model=tylenol&inline=1&isfirst=false&width=250&height=200&image2d=true"></script></div></td>
 
 [test page2](page2)
 
