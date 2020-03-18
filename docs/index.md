@@ -3,12 +3,13 @@ work in progress82---11 ====>233333++))
 
 
 [link to page4 (md)](page4)
+[link to compare (md)](compare)
 
 
 
 [link to page3 (html)](page3)
 From resolver of compound name:
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150&"></script>
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150"></script>
 
 Second molecule (add "&isfirst=false")
 
