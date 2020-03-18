@@ -1,7 +1,11 @@
 # macrolide-antibiotics
 Work in progress!
 
-[Compare cholesterol and ergosterol (md)](compare)
+[Compare cholesterol and ergosterol (rudimental)](compare)
+
+[Compare cholesterol and ergosterol (html)](page2)
+
+[Compare cholesterol and ergosterol (md)](page5)
 
 [Cholesterol -  (md)](page4)
 
