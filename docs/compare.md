@@ -1,4 +1,4 @@
-# Compare cholesterol and ergosterol
+### Compare cholesterol and ergosterol
 
 <script type='text/javascript' src='https://chemapps.stolaf.edu/jmol/files/JSmolMin2.js'></script>
 <script type='text/javascript' language='javascript'>
@@ -13,8 +13,6 @@
 <div style='width:600px'>cholesterol <script>jmolCheckbox('spin on','spin off','spin on/off')</script></div>
 <div style='width:600px'>try:  <script>jmolCheckbox("spacefill off","spacefill on","toggle display as spheres")</script></div>
 <div style='width:600px'>try2:  <script>jmolButton("spacefill on", "display as vdW spheres");</script></div>
-
-## Compare cholesterol and ergosterol
 
 ### Just cholesterol
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/cholesterol-3D.sdf&inline=1&isfirst=falsewidth=150"></script>
