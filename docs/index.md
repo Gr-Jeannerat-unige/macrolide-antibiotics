@@ -7,15 +7,15 @@ work in progress6
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=aspirin&inline&width=150&isfirst=false"></script>
 ttAAo:
 
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://github.com/Gr-Jeannerat-unige/macrolide-antibiotics/blob/master/data/cholesterol-3D.sdf&link=3D structure of cholesterol"></script>
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://github.com/Gr-Jeannerat-unige/macrolide-antibiotics/blob/master/data/cholesterol-3D.sdf&link=3D structure of cholesterol local"></script>
 ttAAo232:
 
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&link=3D structure of cholesterol"></script>
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&link=3D structure of cholesterol OK"></script>
 
 fsads
 
 
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://github.com/Gr-Jeannerat-unige/macrolide-antibiotics/blob/master/data/menthol_allHexplicit.mol&image2d=true&link=3D structure of cholesterol"></script>
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://github.com/Gr-Jeannerat-unige/macrolide-antibiotics/blob/master/data/menthol_allHexplicit.mol&link=3D structure of menthol"></script>
 
 work in progress3
 <div><table border=1 cellpadding=10><tr>
