@@ -1,5 +1,5 @@
 # macrolide-antibiotics
-work in progress82---11 ====>22
+work in progress82---11 ====>233333
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150&"></script>
 work in progress6
@@ -10,12 +10,14 @@ ttAAo:
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/cholesterol-3D.sdf&inline=1&isfirst=false"></script>
 sdfsdf
 
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/menthol_allHexplicit.mol&inline=1&isfirst=false"></script>
+sdfsdf
 ttAAfsdfo232:
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&link=3D structure of cholesterol external source"></script>
 
-
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/menthol_allHexplicit.mol&link=3D structure of menthol"></script>
+ 
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/menthol_allHexplicit.mol&link=Pop 3D structure of menthol"></script>
 
 work in progress3
 <div><table border=1 cellpadding=10><tr>
