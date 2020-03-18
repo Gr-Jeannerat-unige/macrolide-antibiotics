@@ -14,13 +14,14 @@ Jmol.Info = {
 }
 //Jmol._debugCode = true
 
- document.getElementById("info").reset()
-
+document.getElementById("info").reset()
 function sync() {
  var syncing = document.getElementById("drive").checked
  var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
  jmolScript(s, "A");
 }
+sync();
+
 </script>
 
 
