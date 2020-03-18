@@ -15,9 +15,8 @@ Jmol.Info = {
 }
 //Jmol._debugCode = true
 
-function doLoad() {
  document.getElementById("info").reset();
-}
+
 function sync() {
  var syncing = document.getElementById("drive").checked
  var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
@@ -27,7 +26,7 @@ function sync() {
 
 </head>
 
-<body onload = doLoad()>
+<body >
 
 <table border = 1 cellpadding=10>
 <tr>
