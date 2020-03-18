@@ -1,4 +1,4 @@
-de1
+de9
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript" src="src/Jmol2.js"></script>
 <script type="text/javascript">
@@ -12,17 +12,14 @@ Jmol.Info = {
 			disableInitialConsole: true
 }
 
- document.getElementById("info").reset();
-
+document.getElementById("info").reset();
 
 function sync() {
  var syncing = document.getElementById("drive").checked
  var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
  jmolScript(s, "A");
 }
-
 </script>
-
 <script>
 jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;;", "A");
 </script>
