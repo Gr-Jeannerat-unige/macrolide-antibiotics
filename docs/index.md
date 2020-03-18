@@ -6,7 +6,7 @@ work in progress6
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=aspirin&inline&width=150&isfirst=false"></script>
 ttAAo:
-
+[pointer to molecule](../data/cholesterol-3D.sdf)
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/blob/master/data/cholesterol-3D.sdf&link=3D structure of cholesterol local"></script>
 ttAAfsdfo232:
 
