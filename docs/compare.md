@@ -1,4 +1,4 @@
-
+Compare cholesterol and ergosterol
 
 <script type='text/javascript' src='https://chemapps.stolaf.edu/jmol/files/JSmolMin2.js'></script>
 <script type='text/javascript' language='javascript'>
