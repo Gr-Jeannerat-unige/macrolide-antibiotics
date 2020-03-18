@@ -1,4 +1,4 @@
-de8
+de9
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript" src="src/Jmol2.js"></script>
 <script type="text/javascript">
@@ -23,6 +23,8 @@ jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;
 <script>
 jmolApplet(400,"load data/ergosterol-3D.sdf;calculate structure;cartoon on;color cartoon structure;rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B");
 </script>
+<a href='javascript:sync()'>syncronize</a>
+
 <a href='javascript:jmolScript("reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,128,0]", "A")'>Side view cholesterol</a>
 <a href='javascript:jmolScript("reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;", "B")'>Side view ergosterol</a>
 
