@@ -1,4 +1,4 @@
-de7
+de8
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript" src="src/Jmol2.js"></script>
 <script type="text/javascript">
@@ -10,9 +10,7 @@ Jmol.Info = {
 			disableJ2SLoadMonitor: false,
 			disableInitialConsole: true
 }
-
 document.getElementById("info").reset()
-
 function sync() {
  var syncing = document.getElementById("drive").checked
  var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
