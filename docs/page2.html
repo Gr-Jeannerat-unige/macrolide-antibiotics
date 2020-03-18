@@ -16,13 +16,15 @@ Jmol.Info = {
 //Jmol._debugCode = true
 
 function doLoad() {
- document.getElementById("info").reset()
+ document.getElementById("info").reset();
 }
 function sync() {
  var syncing = document.getElementById("drive").checked
  var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
  jmolScript(s, "A");
 }
+</script>
+<script>
 </script>
 
 </head>
@@ -38,9 +40,11 @@ function sync() {
 </form>
 <script>
 jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;;", "A")
+
 </script>
 <script>
 jmolApplet(400,"load data/ergosterol-3D.sdf;calculate structure;cartoon on;color cartoon structure;rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B");
+
 </script>
 </td>
 <td>
@@ -55,7 +59,11 @@ jmolApplet(400,"load data/ergosterol-3D.sdf;calculate structure;cartoon on;color
 <code><a href='javascript:jmolScript("select atomno = 41;color [0,128,0]", "A")'>Highlight Hax(7)</a></code>
 <br><br>
 
-<a href='javascript:jmolScript("sync > \"background black\"","A")'>sync > "background black"</a><br><br>
+<a href='javascript:jmolScript("sync . ON;sync > SLAVE", "A")'>jmolScript("sync . ON;sync > SLAVE", "A")</a></code>
+<a href=''>sync </a></code>
+<a href='javascript:jmolScript("sync . ON;sync > SLAVE", "A")'>sync </a></code>
+<a href='javascript:sync()'>sync2 </a></code>
+<br><br>
 
 Set 
 <a href='javascript:jmolScript("script APPLET * \"background white\"","A")'> white </a>

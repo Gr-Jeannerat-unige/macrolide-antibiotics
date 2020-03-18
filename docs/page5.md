@@ -38,8 +38,9 @@ sync();
 
 <a href='javascript:jmolScript("reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B")'>Reset ergosterol</a>
 <a href='javascript:jmolScript("select atomno = 41;color [0,128,0]", "A")'>Highlight Hax(7)</a>
-
-
+<p>
+<input type=checkbox id=drive onClick=sync() accessKey="1">Synchronize
+</p>
 
 Set 
 <a href='javascript:jmolScript("script APPLET * \"background white\"","A")'> white </a>
