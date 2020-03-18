@@ -35,7 +35,7 @@ Set
  or
 <a href='javascript:jmolScript("script APPLET * \"background black\"","A")'> black </a>background.
 <br><br>
-<a href='javascript:jmolScript("console","A")'>Cholesterol </a>/
+<a href='javascript:jmolScript("console","A")'>Cholesterol</a>/
 <a href='javascript:jmolScript("console","B")'>ergosterol console</a>.
 print script("show orientation")
 
