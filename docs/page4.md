@@ -1,11 +1,10 @@
 
 
-info : http://wiki.jmol.org/index.php/Jmol_Applet_Deployment_Local
+info : [info1](http://wiki.jmol.org/index.php/Jmol_Applet_Deployment_Local)
 
-https://chemapps.stolaf.edu/jmol/jmol.php
+[info2](https://chemapps.stolaf.edu/jmol/jmol.php)
 
-
-https://www.macinchem.org/reviews/jsmol/jsmol.php
+[info3](https://www.macinchem.org/reviews/jsmol/jsmol.php)
 
 
 <script type='text/javascript' src='https://chemapps.stolaf.edu/jmol/files/JSmolMin2.js'></script>
