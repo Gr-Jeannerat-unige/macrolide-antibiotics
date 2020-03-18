@@ -8,3 +8,4 @@ test 2345
   jmolApplet(['400','200'],"set antialiasdisplay\;load https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/cholesterol-3D.sdf;",'0');
 </script>
 <div style='width:600px'>cholesterol local model <script>jmolCheckbox('spin on','spin off','spin on/off')</script></div>
+<div style='width:600px'>second  <script>jmolCheckbox("spacefill on","spacefill off","toggle display as spheres")</script></div>
