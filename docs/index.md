@@ -1,5 +1,5 @@
 # macrolide-antibiotics
-work in progress82---11 AA
+work in progress82---11 AABB
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150&"></script>
 work in progress6
