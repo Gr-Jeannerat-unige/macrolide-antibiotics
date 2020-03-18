@@ -1,10 +1,6 @@
-test as md 22*334
-
-
-<div>
- <script src=https://chemapps.stolaf.edu/jmol/files/JSmolMin2.js>
- </script>
-</div>
+test as md 22*3348
+<script src=https://chemapps.stolaf.edu/jmol/files/JSmolMin2.js>
+</script>
 
 <script type='text/javascript' language='javascript'>
   Jmol.Info.j2sPath = 'https://chemapps.stolaf.edu/jmol/jsmol/j2s';
