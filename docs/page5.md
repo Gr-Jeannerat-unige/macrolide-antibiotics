@@ -1,13 +1,12 @@
-de6
+de7
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript" src="src/Jmol2.js"></script>
 <script type="text/javascript">
 Jmol.Info = {
-      
       jarPath: "src",
       jarFile: "JmolApplet0.jar",
       j2sPath: "src/j2s",
-      use: "HTML5", // could be JAVA or HTML5
+      use: "HTML5", 
 			disableJ2SLoadMonitor: false,
 			disableInitialConsole: true
 }
