@@ -2,6 +2,9 @@
 work in progress6
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline"></script>
+work in progress6
+
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=500"></script>
 
 work in progress3
 
