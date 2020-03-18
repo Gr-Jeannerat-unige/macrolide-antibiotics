@@ -1,35 +1,21 @@
 # macrolide-antibiotics
-work in progress82---11 ====>2
+work in progress82---11 ====>22
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150&"></script>
 work in progress6
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=aspirin&inline&width=150&isfirst=false"></script>
 ttAAo:
-[pointer to molecule](data/cholesterol-3D.sdf)
-
-[pointer to molecule ST Olaf](https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf)
-
-
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/cholesterol-3D.sdf&link=3D structure of cholesterol local"></script>
-ttAAfsdfo232:
-remote:
-
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&inline=1&isfirst=false"></script>
-sdfsdf
-local:
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/cholesterol-3D.sdf&inline=1&isfirst=false"></script>
 sdfsdf
 
 ttAAfsdfo232:
 
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&link=3D structure of cholesterol OK"></script>
-
-fsads
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&link=3D structure of cholesterol external source"></script>
 
 
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://github.com/Gr-Jeannerat-unige/macrolide-antibiotics/blob/master/data/menthol_allHexplicit.mol&link=3D structure of menthol"></script>
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/menthol_allHexplicit.mol&link=3D structure of menthol"></script>
 
 work in progress3
 <div><table border=1 cellpadding=10><tr>
