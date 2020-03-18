@@ -1,9 +1,9 @@
 # macrolide-antibiotics
-Work in progress
-
-[cholesterol -  (md)](page4)
+Work in progress!
 
 [Compare cholesterol and ergosterol (md)](compare)
+
+[Cholesterol -  (md)](page4)
 
 [test page3 (html)](page3)
 From resolver of compound name:
