@@ -10,4 +10,4 @@ test 23456888888
 </script>
 <div style='width:600px'>cholesterol local model <script>jmolCheckbox('spin on','spin off','spin on/off')</script></div>
 <div style='width:600px'>try:  <script>jmolCheckbox("spacefill on","spacefill off","toggle display as spheres")</script></div>
-<div style='width:600px'>try2:  <script>Jmol.jmolButton(myJmol,"spacefill on", "display as vdW spheres");</script></div>
+<div style='width:600px'>try2:  <script>jmolButton(myJmol,"spacefill on", "display as vdW spheres");</script></div>
