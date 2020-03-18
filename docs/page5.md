@@ -39,7 +39,7 @@ Set
 <br><br>
 <a href='javascript:jmolScript("console","A")'>Cholesterol</a>/
 <a href='javascript:jmolScript("console","B")'>ergosterol console</a>.
-print script("show orientation")
+<code>print script("show orientation")</code>
 
 
 
