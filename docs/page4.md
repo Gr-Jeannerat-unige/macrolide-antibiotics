@@ -1,4 +1,3 @@
-test l3
 
 
 info : http://wiki.jmol.org/index.php/Jmol_Applet_Deployment_Local
