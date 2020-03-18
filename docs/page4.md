@@ -5,7 +5,7 @@ info : [info1](http://wiki.jmol.org/index.php/Jmol_Applet_Deployment_Local)
 [info2](https://chemapps.stolaf.edu/jmol/jmol.php)
 
 [info3](https://www.macinchem.org/reviews/jsmol/jsmol.php)
-
+[info scripting](https://chemapps.stolaf.edu/jmol/docs/)
 
 <script type='text/javascript' src='https://chemapps.stolaf.edu/jmol/files/JSmolMin2.js'></script>
 <script type='text/javascript' language='javascript'>
