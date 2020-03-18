@@ -20,9 +20,12 @@ function sync() {
  var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
  jmolScript(s, "A");
 }
+</script>
 
-jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;;", "A");
-
+<script>
+jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;;", "A")
+</script>
+<script>
 jmolApplet(400,"load data/ergosterol-3D.sdf;calculate structure;cartoon on;color cartoon structure;rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B");
 sync();
 
