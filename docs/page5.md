@@ -1,4 +1,4 @@
-de6
+de7
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript" src="src/Jmol2.js"></script>
 <script type="text/javascript">
@@ -41,6 +41,11 @@ jmolApplet(400,"load data/ergosterol-3D.sdf;calculate structure;cartoon on;color
 <a href='javascript:jmolScript("select atomno = 41;color [0,128,0]", "A")'>Highlight Hax(7)</a>
 <p><input type=checkbox id=drive onClick=sync() accessKey="1">Synchronize</p>
 <button type="button" onclick="sync()">Click Me!</button>
+<script>
+    function clickHandler() {
+      sync();
+    }
+</script>
 Set 
 <a href='javascript:jmolScript("script APPLET * \"background white\"","A")'> white </a>
  or
