@@ -15,7 +15,7 @@ Second molecule (add "&isfirst=false")
 
 Third molecule (local)
 
-<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/cholesterol-3D.sdf&inline=1&isfirst=false&width=150"></script>
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/cholesterol-3D.sdf&inline=1&isfirst=false&width=250"></script>
 
 ### Menthol
 
