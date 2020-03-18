@@ -16,16 +16,13 @@ function sync() {
  var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
  jmolScript(s, "A");
 }
-
 </script>
-
 <script>
 jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;;", "A");
 </script>
 <script>
 jmolApplet(400,"load data/ergosterol-3D.sdf;calculate structure;cartoon on;color cartoon structure;rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B");
 </script>
-
 <a href='javascript:jmolScript("reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,128,0]", "A")'>Side view cholesterol</a>
 <a href='javascript:jmolScript("reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;", "B")'>Side view ergosterol</a>
 
