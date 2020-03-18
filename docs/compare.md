@@ -1,7 +1,3 @@
-test l3
-
-
-info : http://wiki.jmol.org/index.php/Jmol_Applet_Deployment_Local
 
 
 <script type='text/javascript' src='https://chemapps.stolaf.edu/jmol/files/JSmolMin2.js'></script>
