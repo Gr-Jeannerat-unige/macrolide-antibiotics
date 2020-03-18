@@ -1,4 +1,4 @@
-de5
+de6
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript" src="src/Jmol2.js"></script>
 <script type="text/javascript">
@@ -12,7 +12,7 @@ Jmol.Info = {
 			disableInitialConsole: true
 }
 
-document.getElementById("info").reset();
+document.getElementById("info").reset()
 
 function sync() {
  var syncing = document.getElementById("drive").checked
