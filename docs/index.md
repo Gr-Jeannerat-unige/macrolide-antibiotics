@@ -1,15 +1,11 @@
 # macrolide-antibiotics
-work in progress82---11 ====>233333++))
+work in progress
 
+[cholesterol - would like to add ergosterol and control both (md)](page4)
 
-[link to page4 (md)](page4)
+[Compare cholesterol and ergosterol (md)](compare)
 
-
-[link to compare (md)](compare)
-
-
-
-[link to page3 (html)](page3)
+[test page3 (html)](page3)
 From resolver of compound name:
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150"></script>
 
@@ -38,6 +34,6 @@ work in progress3
 <td>tylenol flat<div style="width:450px;height:400px"><script src="https://chemapps.stolaf.edu/jmol/jmol.php?model=tylenol&inline=1&isfirst=false&width=250&height=200&image2d=true"></script></div></td>
 
 
-[link to page2](page2)
+[test page2](page2)
 
 
