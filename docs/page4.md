@@ -1,5 +1,5 @@
-test 6
-
+test l
+info : http://wiki.jmol.org/index.php/Jmol_Applet_Deployment_Local
 <script type='text/javascript' src='https://chemapps.stolaf.edu/jmol/files/JSmolMin2.js'></script>
 <script type='text/javascript' language='javascript'>
   Jmol.Info.j2sPath = 'https://chemapps.stolaf.edu/jmol/jsmol/j2s';
@@ -20,6 +20,6 @@ Jmol.jmolCheckbox(myJmol, 'display add _N', 'hide add _N', 'nitrogen', true, 'ni
 Jmol.jmolHtml('</div>');
 Jmol.setCheckboxGroup('heavy', ['carb','oxy','nitro']);
 </script>
-<div style='width:600px'>cholesterol local model <script>jmolCheckbox('spin off','spin on','spin on/off')</script></div>
+<div style='width:600px'>cholesterol local model <script>jmolCheckbox('spin on','spin off','spin on/off')</script></div>
 <div style='width:600px'>try:  <script>jmolCheckbox("spacefill off","spacefill on","toggle display as spheres")</script></div>
 <div style='width:600px'>try2:  <script>jmolButton("spacefill on", "display as vdW spheres");</script></div>
