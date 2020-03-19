@@ -22,7 +22,7 @@ function sync() {
  jmolScript(s, "A");
 }
 </script>
-Table 1
+
 |Cholesterol|Ergosterol|
 |-----|-----|
 |![alt text](data/Cholesterol_2D.svg.png)|![alt text](data/Ergosterol_2D.svg.png)|
