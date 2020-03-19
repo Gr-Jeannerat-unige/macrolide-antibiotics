@@ -3,7 +3,7 @@ Sterols are found in the cell membranes of many living organisms. [Cholesterol](
 ## Relevance of macrolide antibiotics
 Because ergosterol is present in cell membranes of fungi, yet absent in those of animals, it is a useful target for antifungal drugs.<sup>[Ref](https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs)</sup> Macrolide antibiotics such as Amphotericin B are target of ergosterol.<sup>[Ref](https://academic.oup.com/jac/article/49/suppl_1/7/2473430)</sup>
 ## Differences
-Cholesterol and ergosterol have similar shapes, but the Hax(7) which is pointing out of the plane of cholesterol is not present in ergosterol because it has a sp<sub>2</sub> hybridisation. This hydrogen atom can be highligheted in the structures of Table 1.
+Cholesterol and ergosterol have similar shapes, but the Hax(7) which is pointing out of the plane of cholesterol is not present in ergosterol because it has a sp<sub>2</sub> hybridisation. This hydrogen atom can be highligheted in the structures of Table 1. 
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript" src="src/Jmol2.js"></script>
 <script type="text/javascript">
@@ -25,7 +25,7 @@ function sync() {
 
 |Cholesterol|Ergosterol|
 |-----|-----|
-|<img src="data/Cholesterol_2D.svg.png" alt="cholesterol" width="200" class="center"/>|<img src="data/Ergosterol_2D.svg.png" alt="ergosterol" width="200" class="center"/>|
+|<center><img src="data/Cholesterol_2D.svg.png" alt="cholesterol" width="200" class="center"/></center>|<center><img src="data/Ergosterol_2D.svg.png" alt="ergosterol" width="200" class="center"/></center>|
 |<script>jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;;", "A");</script>|<script>jmolApplet(400,"load data/ergosterol-3D.sdf;calculate structure;cartoon on;color cartoon structure;rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B");</script>|
 |View <a href='javascript:jmolScript("reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]", "A")'>side</a>/<a href='javascript:jmolScript("reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]", "A")'>top</a>|View <a href='javascript:jmolScript("reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;", "B")'>side</a>/<a href='javascript:jmolScript("reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B")'>top</a>|
 
