@@ -1,4 +1,5 @@
-[Version of this page with synchronized rotation](page2.html)
+Sterols are found in the cell membranes of many living organisms. [Cholesterol](https://en.wikipedia.org/wiki/Cholesterol) is found in cell membranes of animals, [ergosterol](https://en.wikipedia.org/wiki/Ergosterol) in fungi and protozoa, and [phytosterols](https://en.wikipedia.org/wiki/Phytosterol) in plants.
+Because ergosterol is present in cell membranes of fungi, yet absent in those of animals, it is a useful target for antifungal drugs.[Ref](https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs) Macrolide antibiotics such as Amphotericin B are target of ergosterol.[Ref](https://academic.oup.com/jac/article/49/suppl_1/7/2473430)
 
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript" src="src/Jmol2.js"></script>
@@ -21,6 +22,7 @@ function sync() {
 
 |Cholesterol|Ergosterol|
 |-----|-----|
+|![alt text](data/Cholesterol_2D.svg.png)|![alt text](data/Ergosterol_2D.svg.png)|
 |<script>jmolApplet(400,"load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;;", "A");</script>|<script>jmolApplet(400,"load data/ergosterol-3D.sdf;calculate structure;cartoon on;color cartoon structure;rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B");</script>|
 |View <a href='javascript:jmolScript("reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]", "A")'>side</a>/<a href='javascript:jmolScript("reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]", "A")'>top</a>|View <a href='javascript:jmolScript("reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;", "B")'>side</a>/<a href='javascript:jmolScript("reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;", "B")'>top</a>|
 
@@ -40,6 +42,7 @@ Set
 <a href='javascript:jmolScript("console","A")'>Cholesterol</a>/
 <a href='javascript:jmolScript("console","B")'>ergosterol console</a>.
 <code>print script("show orientation")</code>
+[Version of this page with synchronized rotation](page2.html)
 
 
 
