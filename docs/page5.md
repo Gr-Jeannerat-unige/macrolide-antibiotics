@@ -1,6 +1,9 @@
+## Cholesterol and ergosterol
 Sterols are found in the cell membranes of many living organisms. [Cholesterol](https://en.wikipedia.org/wiki/Cholesterol) is found in cell membranes of animals, [ergosterol](https://en.wikipedia.org/wiki/Ergosterol) in fungi and protozoa, and [phytosterols](https://en.wikipedia.org/wiki/Phytosterol) in plants.
-Because ergosterol is present in cell membranes of fungi, yet absent in those of animals, it is a useful target for antifungal drugs.[Ref](https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs) Macrolide antibiotics such as Amphotericin B are target of ergosterol.[Ref](https://academic.oup.com/jac/article/49/suppl_1/7/2473430)
-
+## Relevance of macrolide antibiotics
+Because ergosterol is present in cell membranes of fungi, yet absent in those of animals, it is a useful target for antifungal drugs.<sup>[Ref](https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs)</sup> Macrolide antibiotics such as Amphotericin B are target of ergosterol.<sup>[Ref](https://academic.oup.com/jac/article/49/suppl_1/7/2473430)</sup>
+## Differences
+Cholesterol and ergosterol have similar shapes, but the Hax(7) which is pointing out of the plane of cholesterol is not present in ergosterol because it has a sp<sub>2</sub> hybridisation. This hydrogen atom can be highligheted in the structures of Table 1.
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript" src="src/Jmol2.js"></script>
 <script type="text/javascript">
@@ -19,7 +22,7 @@ function sync() {
  jmolScript(s, "A");
 }
 </script>
-
+Table 1
 |Cholesterol|Ergosterol|
 |-----|-----|
 |![alt text](data/Cholesterol_2D.svg.png)|![alt text](data/Ergosterol_2D.svg.png)|
