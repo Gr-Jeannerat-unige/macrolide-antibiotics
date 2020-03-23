@@ -18,7 +18,7 @@
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=data/menthol-3D.mol&inline=1&isfirst=false&width=150"></script>
 <p></p>
-  
+
 ### Others
 
 From external source
