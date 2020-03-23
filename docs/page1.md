@@ -1,3 +1,4 @@
+# Demo/test display molecules
 ## Using JSmol
 
 [Cholesterol -  (md)](page4)
@@ -27,6 +28,6 @@ From external source
 
 [more divers examples](page13)
 
-   [info on chemViewer2D](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
-   [info on embeddedViewer](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
-https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=embeddedViewer
+[info on chemViewer2D](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
+
+[info on embeddedViewer](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
