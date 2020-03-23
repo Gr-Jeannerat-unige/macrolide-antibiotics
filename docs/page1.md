@@ -23,6 +23,10 @@ From external source
 
 
 ## Using Kekule
-[selected tests](page12)
+[selected examples with local compounds](page12)
 
-[not part working but interesting](page13)
+[more divers examples](page13)
+
+   [info on chemViewer2D](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
+   [info on embeddedViewer](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
+https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=embeddedViewer
