@@ -7,6 +7,7 @@
 
 [Test page55 (md)](page5)
 [Test page55 (md)](compare)
+[Test show problem with image2d (md)](page11)
 
 
 From resolver of compound name:
