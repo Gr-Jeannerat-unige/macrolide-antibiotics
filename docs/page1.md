@@ -31,3 +31,8 @@ From external source
 [info on chemViewer2D](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
 
 [info on embeddedViewer](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
+
+
+[remote/local library](page14)
+
+[mdpage remote](page14)
