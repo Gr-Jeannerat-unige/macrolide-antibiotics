@@ -19,7 +19,7 @@ From external source
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&link=Pop up 3D structure of cholesterol"></script>
 
-Note:pop-up does not work with local files
+Note:pop-up does not work with local files.
 ## Using Kekule
 
 <script src="https://partridgejiang.github.io/Kekule.js/demos/libs/kekule/kekule.js?module=chemWidget"></script>
@@ -29,7 +29,7 @@ Note:pop-up does not work with local files
 
 [More divers examples](page13)
 
-Info on [hemViewer2D](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) and [embeddedViewer](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
+Info on [hemViewer2D](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) and [embeddedViewer](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=embeddedViewer) 
 
 
 [Compare remote/local library](page14)
