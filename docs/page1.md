@@ -14,6 +14,7 @@
 [Test show problem with image2d (md)](page11)
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=data/menthol-3D.mol&link=Pop 3D structure of menthol"></script>
+<p></p>
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=data/menthol-3D.mol&inline=1&isfirst=false&width=150"></script>
 <p></p>
