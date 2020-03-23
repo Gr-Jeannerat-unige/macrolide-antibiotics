@@ -30,15 +30,13 @@ From external source
 <script src="https://partridgejiang.github.io/Kekule.js/demos/libs/kekule/kekule.js?module=chemWidget"></script>
 <span style="display:block;border:1px solid black;width:300px;height:300px" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(data/menthol-2D.mol)" data-caption="menthol"></span>
 
-[selected examples with local compounds](page12)
+[Selected examples with local compounds](page12)
 
-[more divers examples](page13)
+[More divers examples](page13)
 
-[info on chemViewer2D](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
-
-[info on embeddedViewer](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
+Info on [hemViewer2D](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) and [embeddedViewer](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) 
 
 
-[remote/local library](page14)
+[Compare remote/local library](page14)
 
-[mdpage remote](page15)
+[mdpage remote library for module](page15)
