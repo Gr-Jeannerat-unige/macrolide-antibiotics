@@ -8,6 +8,11 @@
 <script src="https://partridgejiang.github.io/Kekule.js/demos/libs/kekule/kekule.js?module=chemWidget"></script>
 <span style="display:block" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(data/menthol-2D.mol)" data-caption="menthol"></span>
 ## local file remote library (less)
-<script src="https://partridgejiang.github.io/Kekule.js/demos/libs/kekule/kekule.js?module=chemWidget"></script>
 <span style="display:block" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(data/menthol-2D.mol)" data-caption="menthol"></span>
+## local file remote library (less)
+<span data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(data/menthol-2D.mol)" data-caption="menthol"></span>
+## local file remote library (less)
+<span data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(data/menthol-2D.mol)"></span>
+
+
 (Keep this demo for https://nmredatainitiative.github.io/ExtractionChemicalStructures/)
