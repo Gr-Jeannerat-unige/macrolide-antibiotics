@@ -29,9 +29,8 @@ Note:pop-up does not work with local files.
 
 [More divers examples](page13)
 
-Info on [hemViewer2D](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) and [embeddedViewer](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=embeddedViewer) 
-
-
 [Compare remote/local library](page14)
 
 [mdpage remote library for module](page15)
+
+Info on [hemViewer2D](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D) and [embeddedViewer](https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=embeddedViewer) 
