@@ -69,53 +69,53 @@ M  END
 <h2>Basic Usage</h2>
 <p>Chem viewer widget can be embedded in web page to display molecules and other chem objects. Just like using &lt;img src=&quot;url&quot;&gt; tag to display an image file, chem viewer can load and display a molecule file with ease:</p>
 <pre class="CodeBlock">&lt;span&#32;id="viewer2D1"&#32;style=&quot;display:block&quot; data-widget="Kekule.ChemWidget.Viewer2D"
- &#32;data-chem-obj="url(../../chemFiles/benzene.mol)"&#32;data-predefined-setting="basic"&#32;data-auto-size="true"&gt;&lt;/span&gt;
+ &#32;data-chem-obj="url(libs/benzene.mol)"&#32;data-predefined-setting="basic"&#32;data-auto-size="true"&gt;&lt;/span&gt;
 </pre>
 <p>Note the &quot;data-chem-obj&quot; attribute, url refers to a external chem file. If the web server is properly configurated and a proper MIME type (&quot;chemical/x-mdl-molfile&quot; for MOL format file) is returned for .mol file, the molecule will be displayed in browser. The result:</p>
-<span class="BlockViewer" id="viewer2D1" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(../../chemFiles/benzene.mol)" data-predefined-setting="basic" data-auto-size="true"></span>
+<span class="BlockViewer" id="viewer2D1" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(libs/benzene.mol)" data-predefined-setting="basic" data-auto-size="true"></span>
 <p>You can even add a caption to it:</p>
 <pre class="CodeBlock">&lt;span&#32;style=&quot;display:block&quot; data-widget="Kekule.ChemWidget.Viewer2D"
- &#32;data-chem-obj="url(../../chemFiles/benzene.mol)"&#32;data-predefined-setting="basic"&#32;data-auto-size="true" data-caption=&quot;Benzene&quot;&gt;&lt;/span&gt;
+ &#32;data-chem-obj="url(libs/benzene.mol)"&#32;data-predefined-setting="basic"&#32;data-auto-size="true" data-caption=&quot;Benzene&quot;&gt;&lt;/span&gt;
 </pre>
 <span class="BlockViewer" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D"
-  data-chem-obj="url(../../chemFiles/benzene.mol)" data-predefined-setting="basic" data-auto-size="true" data-show-caption="true" data-caption="Benzene"></span>
+  data-chem-obj="url(libs/benzene.mol)" data-predefined-setting="basic" data-auto-size="true" data-show-caption="true" data-caption="Benzene"></span>
 
 <h2>Inline Embedding</h2>
-<p>The molecule can also be embedded inline, e.g. <span id="viewer2D2" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(../../chemFiles/benzene.mol)" data-predefined-setting="basic" data-auto-size="true"></span> Just remove style=&quot;display:block&quot; attribute. Of course, you can change vertical alignment by usual CSS vertical-align property: <span id="viewer2D3" style="vertical-align:middle" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(../../chemFiles/pyrrole.mol)" data-predefined-setting="basic" data-auto-size="true"></span>, or change zoom level: <span id="viewer2D4" style="vertical-align:middle" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(../../chemFiles/pyrrole.mol)" data-predefined-setting="basic" data-auto-size="true" data-zoom="0.5"></span>. HTML code of the last viewer is:</p>
+<p>The molecule can also be embedded inline, e.g. <span id="viewer2D2" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(libs/benzene.mol)" data-predefined-setting="basic" data-auto-size="true"></span> Just remove style=&quot;display:block&quot; attribute. Of course, you can change vertical alignment by usual CSS vertical-align property: <span id="viewer2D3" style="vertical-align:middle" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(libs/pyrrole.mol)" data-predefined-setting="basic" data-auto-size="true"></span>, or change zoom level: <span id="viewer2D4" style="vertical-align:middle" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(libs/pyrrole.mol)" data-predefined-setting="basic" data-auto-size="true" data-zoom="0.5"></span>. HTML code of the last viewer is:</p>
 <pre class="CodeBlock">&lt;span id=&quot;viewer2D4&quot; style=&quot;vertical-align:middle&quot; data-widget=&quot;Kekule.ChemWidget.Viewer2D&quot;
-  data-chem-obj=&quot;url(../../chemFiles/pyrrole.mol)&quot; data-predefined-setting=&quot;basic&quot; data-auto-size=&quot;true&quot; data-zoom=&quot;0.5&quot;&gt;&lt;/span&gt;
+  data-chem-obj=&quot;url(libs/pyrrole.mol)&quot; data-predefined-setting=&quot;basic&quot; data-auto-size=&quot;true&quot; data-zoom=&quot;0.5&quot;&gt;&lt;/span&gt;
 </pre>
 <h2>Set Explicit Size of Viewer</h2>
 <p>All the  viewers above are set with attribute data-auto-size to true, so the widge size is calculated and set by molecule. You can also turn off auto-size and set size of widget explicitly by CSS, e.g.:</p>
 <pre class="CodeBlock">&lt;span&#32;style=&quot;display:block;border:1px solid black;width:300px;height:300px&quot; data-widget="Kekule.ChemWidget.Viewer2D"
- &#32;data-chem-obj="url(../../chemFiles/acenaphthylene.mol)"&#32;data-predefined-setting="basic" data-caption=&quot;acenaphthylene&quot;&gt;&lt;/span&gt;
+ &#32;data-chem-obj="url(libs/acenaphthylene.mol)"&#32;data-predefined-setting="basic" data-caption=&quot;acenaphthylene&quot;&gt;&lt;/span&gt;
 </pre>
 <p>result (here a border is added to show the actual dimension of viewer):</p>
 <span class="BlockViewer" style="display:block;border:1px solid black;width:300px;height:300px" data-widget="Kekule.ChemWidget.Viewer2D"
-  data-chem-obj="url(../../chemFiles/acenaphthylene.mol)" data-predefined-setting="basic" data-caption="acenaphthylene"></span>
+  data-chem-obj="url(libs/acenaphthylene.mol)" data-predefined-setting="basic" data-caption="acenaphthylene"></span>
 <p>If you want molecule and other chem object full fill the viewer, just set data-autofit attribute to true:</p>
 <pre class="CodeBlock">&lt;span&#32;style=&quot;display:block;border:1px solid black;width:300px;height:300px&quot; data-widget="Kekule.ChemWidget.Viewer2D"
- &#32;data-chem-obj="url(../../chemFiles/acenaphthylene.mol)"&#32;data-predefined-setting="basic" data-autofit=&quot;true&quot; data-caption=&quot;acenaphthylene&quot;&gt;&lt;/span&gt;
+ &#32;data-chem-obj="url(libs/acenaphthylene.mol)"&#32;data-predefined-setting="basic" data-autofit=&quot;true&quot; data-caption=&quot;acenaphthylene&quot;&gt;&lt;/span&gt;
 </pre>
 <span class="BlockViewer" style="display:block;border:1px solid black;width:300px;height:300px" data-widget="Kekule.ChemWidget.Viewer2D"
-  data-chem-obj="url(../../chemFiles/acenaphthylene.mol)" data-predefined-setting="basic" data-autofit="true" data-caption="acenaphthylene"></span>
+  data-chem-obj="url(libs/acenaphthylene.mol)" data-predefined-setting="basic" data-autofit="true" data-caption="acenaphthylene"></span>
 
 <h2>Static Viewer</h2>
 <p>Web page readers can interact with viewer widget defaultly, including zoom, move and save object. If those interactions are considered unneeded, you can disable it easily:</p>
 <pre class="CodeBlock">&lt;span&#32;style=&quot;display:block&quot; data-widget="Kekule.ChemWidget.Viewer2D"
- &#32;data-chem-obj="url(../../chemFiles/pyrrole.mol)"&#32;data-predefined-setting="static"&#32;data-auto-size="true"&gt;&lt;/span&gt;
+ &#32;data-chem-obj="url(libs/pyrrole.mol)"&#32;data-predefined-setting="static"&#32;data-auto-size="true"&gt;&lt;/span&gt;
 </pre>
 <span class="BlockViewer"  style="display:block" data-widget="Kekule.ChemWidget.Viewer2D"
   data-chem-obj="url(libs/pyrrole.mol)" data-predefined-setting="static" data-auto-size="true"></span>
 <h2>3D Viewer Widget</h2>
 <p>3D viewer is similiar to 2D viewer with a little difference: it can not be auto-sized for some consideration, you must set its size explicitly. e.g.:</p>
 <pre class="CodeBlock">&lt;span&#32;style=&quot;display:block;width:400px;height:400px&quot; data-widget="Kekule.ChemWidget.Viewer3D"
- &#32;data-chem-obj="url(../../chemFiles/3D/taxol.mol)"&#32;data-predefined-setting="basic" data-caption=&quot;taxol&quot;&gt;&lt;/span&gt;
+ &#32;data-chem-obj="url(libs/chemFiles/3D/taxol.mol)"&#32;data-predefined-setting="basic" data-caption=&quot;taxol&quot;&gt;&lt;/span&gt;
 </pre>
 <span class="BlockViewer" style="display:block;width:400px;height:400px" data-widget="Kekule.ChemWidget.Viewer3D"
-  data-chem-obj="url(../../chemFiles/3D/taxol.mol)" data-predefined-setting="basic"  data-caption="taxol"></span>
+  data-chem-obj="url(libs/taxol.mol)" data-predefined-setting="basic"  data-caption="taxol"></span>
 <p>Embedding it inline is also possible: <span style="vertical-align:middle;width:150px;height:150px" data-widget="Kekule.ChemWidget.Viewer3D"
-  data-chem-obj="url(../../chemFiles/3D/methane.mol)" data-predefined-setting="basic"></span></p>
+  data-chem-obj="url(libs/methane.mol)" data-predefined-setting="basic"></span></p>
 <h2>Internal Chem Object Data</h2>
 <p>Besides using external chem file, you can even store chem object data inside a web page itself. Kekule.js supports storing chem formatted data inside an HTML tag (usually a &lt;script&gt; tag) with id. For example, the following code stores a mol2000 format molecule data inside a &lt;script&gt; tag:</p>
 <pre class="CodeBlock">
