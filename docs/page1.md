@@ -26,6 +26,10 @@ From external source
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&link=Pop up 3D structure of cholesterol"></script>
 
 ## Using Kekule
+
+<script src="https://partridgejiang.github.io/Kekule.js/demos/libs/kekule/kekule.js?module=chemWidget"></script>
+<span style="display:block;border:1px solid black;width:300px;height:300px" data-widget="Kekule.ChemWidget.Viewer2D" data-chem-obj="url(data/menthol-2D.mol)" data-caption="menthol"></span>
+
 [selected examples with local compounds](page12)
 
 [more divers examples](page13)
