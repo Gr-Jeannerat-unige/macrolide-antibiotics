@@ -24,6 +24,14 @@ Third molecule (local)
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/menthol-3D.mol&inline=1&isfirst=false&width=150"></script>
 
+local library
+
+<script type="text/javascript" src="src/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/menthol-3D.mol&inline=1&isfirst=false&width=150"></script>
+
+local short library
+
+<script type="text/javascript" src="src/jmol.php?source=data/menthol-3D.mol&inline=1&isfirst=false&width=150"></script>
+
 flat
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/menthol-3D.mol&inline=1&isfirst=false&width=150&image2d=true"></script>
 
