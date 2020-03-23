@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Demo</title>
+
+    <script src="libs/Three.js"></script>
+    <script src="libs/raphael-min.2.0.1.js"></script>
+
+    <script src="libs/kekule/kekule.js?module=chemWidget"></script>
+
+</head>
+
+<body>
+
+    .....2D local..
+    <span style="display:block;border:1px solid black;width:300px;height:300px" data-widget="Kekule.ChemWidget.Viewer2D"
+        data-chem-obj="url(data/menthol-2D.mol)" data-predefined-setting="basic" data-caption="acenaphthylene"></span>
+    .....3D local..
+    <span style="display:block;border:1px solid black;width:300px;height:300px" data-widget="Kekule.ChemWidget.Viewer2D"
+        data-chem-obj="url(data/menthol-3D.mol)" data-predefined-setting="basic" data-caption="acenaphthylene"></span>
+    ....remote...
+    <span style="display:block;border:1px solid black;width:300px;height:300px" data-widget="Kekule.ChemWidget.Viewer2D"
+        data-chem-obj="url(libs/pyrrole.mol)" data-predefined-setting="basic" data-caption="acenaphthylene"></span>
+    variants...
+    <span class="BlockViewer" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D"
+        data-chem-obj="url(libs/pyrrole.mol)" data-predefined-setting="static" data-auto-size="true"></span>
+
+    info : https://partridgejiang.github.io/Kekule.js/demos/demoLauncher.html?id=chemViewer2D
+</body>
+
+</html>
