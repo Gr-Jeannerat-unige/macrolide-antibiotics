@@ -35,7 +35,9 @@ From external source
 
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://static.molinstincts.com/sdf_3d/cholesterol-3D-structure-CT1001897301.sdf&link=3D structure of cholesterol"></script>
 
- 
+ From internal source
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?source=https://gr-jeannerat-unige.github.io/macrolide-antibiotics/data/menthol-2D.mol&inline=1&isfirst=false&width=150&image2d=true"></script>
+
 
 work in progress3
 <td>caffeine<div style="width:450px;height:200px"><script src="https://chemapps.stolaf.edu/jmol/jmol.php?model=caffeine&inline=1&isfirst=false&width=250&height=200"></script></div></td>
