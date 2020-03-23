@@ -1,3 +1,4 @@
+## Using JSmol
 
 [Cholesterol -  (md)](page4)
 
@@ -7,12 +8,14 @@
 
 [Test page55 (md)](page5)
 
-[Test page55 (md)](compare)
+[Test compare (md)](compare)
 
 [Test show problem with image2d (md)](page11)
-Using Kekule
-<sub>[selected tests](page12)</sub>
-<sub>[not part working but interesting](page13)</sub>
+
+## Using Kekule
+[selected tests](page12)
+
+[not part working but interesting](page13)
 
 From resolver of compound name:
 <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?model=acetone&inline&width=150"></script>
