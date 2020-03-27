@@ -14,7 +14,7 @@
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
 Info = {
-    script: "set antialiasDisplay true;load molecules/sym8.mol;cartoon on;color cartoon structure;rotate z 90.0;",
+    script: "set antialiasDisplay true;load molecules/sym8.mol;cartoon on;color cartoon structure;rotate x 130.0;spin MOLECULAR Z 10",
     width:600,      
     height:500,      
     j2sPath: "src/j2s",   
@@ -24,7 +24,6 @@ Info = {
 </script>
 
 <script>Jmol.getApplet("JmolAppletA",Info);</script>
-
 
 View <a href='javascript:Jmol.script(JmolAppletA,"reset;");'>top</a>/<a href='javascript:Jmol.script(JmolAppletA,"reset;rotate x 90");'>side</a>. Spin <a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Z 10");'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
 
