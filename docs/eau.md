@@ -4,7 +4,7 @@ Rotation et zoom possibles.
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
 Info = {
-    script: "set antialiasDisplay true;load molecules/water.xodydata;zoom 150;",
+    script: "set antialiasDisplay true;load molecules/water.xodydata;zoom 180;",
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
     isableInitialConsole: true
