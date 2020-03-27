@@ -19,6 +19,7 @@ Info = {
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
     isableInitialConsole: true
+    }
 </script>
 
 <script>Jmol.getApplet("JmolAppletA",Info);</script>
