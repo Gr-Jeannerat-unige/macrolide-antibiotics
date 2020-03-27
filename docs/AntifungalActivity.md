@@ -14,8 +14,9 @@
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
 Info = {
-    script: "set antialiasDisplay true;load molecules/sym8.mol;cartoon on;color cartoon structure;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
+    script: "set antialiasDisplay true;load molecules/sym8.mol;cartoon on;color cartoon structure;rotate z 0.1;",
     width:600,      
+    height:500,      
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
     isableInitialConsole: true
