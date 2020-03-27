@@ -35,17 +35,19 @@ Ergost = {
 |<script>Jmol.getApplet("JmolAppletA",Cholest);</script>|<script>Jmol.getApplet("JmolAppletB",Ergost);</script>|
 |View <a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]")'>side</a>/<a href='javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]")'>top</a>|View <a href='javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;")'>side</a>/<a href='javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a>|
 
-View <code><a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8; ")'>side</a></code>/<code><a href='javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a></code>. Sync <code><a href='javascript:Jmol.script(JmolAppletA,"sync * on;sync * \"set syncMouse TRUE\"")'>on8</a></code>/<code><a href='javascript:Jmol.script(JmolAppletA,"sync * off")'>off</a></code>.
+<script>javascript:Jmol.script(JmolAppletA,"sync * on;sync * \"set syncMouse TRUE\"");</script>|// default on
+
+View <a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8; ")'>side</a>/<a href='javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a>. Synchronize cursors <a href='javascript:Jmol.script(JmolAppletA,"sync * on;sync * \"set syncMouse TRUE\"")'>on</a>/<code><a href='javascript:Jmol.script(JmolAppletA,"sync * off")'>off</a>.
 
 Spin
-<code><a href='javascript:Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> /
-<code><a href='javascript:Jmol.script(JmolAppletA,"spin off");javascript:Jmol.script(JmolAppletB,"spin off")'>off</a></code>.
+<a href='javascript:Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a> /
+<a href='javascript:Jmol.script(JmolAppletA,"spin off");javascript:Jmol.script(JmolAppletB,"spin off")'>off</a>.
 
-Highlight Hax(7) cholesterol <code><a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>on</a></code>/
-<code><a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [255,255,255]")'>off</a></code>.
+Highlight Hax(7) cholesterol <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>on</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [255,255,255]")'>off</a>.
 Set
-<code><a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background white\"")'> white</a></code>/
-<code><a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'> black</a></code> background.
+<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background white\"")'> white</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'> black</a> background.
 <br><br>
 <a href='javascript:Jmol.script(JmolAppletA,"console")'>Cholesterol</a>/
 <a href='javascript:Jmol.script(JmolAppletB,"console")'>ergosterol console</a>.
