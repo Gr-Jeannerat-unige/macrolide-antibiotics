@@ -64,11 +64,4 @@ Here sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y
 <code><a href='javascript:Jmol.script(JmolAppletA,"sync off")'>off</a></code>/'>off</a></code> 
 Here sync2:<code><a href='javascript:Jmol.script(JmolAppletA,"sync on",Jmol.script(JmolAppletB,"sync on")'>on</a></code>/'>on</a></code> 
 
-
-var syncing = document.getElementById("drive").checked
- var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
- //jmolScript(s, "A");
- Jmol.script(JmolAppletA,s);
-  Jmol.script(JmolAppletA,(document.getElementById("drive").checked ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off"));
-
 [Version of this page with synchronized rotation](page2.html)
