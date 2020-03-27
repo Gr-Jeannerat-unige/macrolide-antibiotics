@@ -1,9 +1,7 @@
 # macrolide-antibiotics
 Work in progress!
 
-[Cholesterol and ergosterol](page5): old script Jmolscript.
-
-[Cholesterol and ergosterol](CholesterolErgosterol): new script Jmol.script(...)
+[Cholesterol and ergosterol](CholesterolErgosterol)
 
 More coming soon...
 
