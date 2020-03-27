@@ -29,8 +29,11 @@ Info = {
 View <a href='javascript:Jmol.script(JmolAppletA,"reset;");'>top</a>.
 
 
-Spin model 
-<a href='javascript:Jmol.script(JmolAppletA,"spin on");'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. Highlight Hax(7) cholesterol 
+Spin axis 
+<a href='javascript:Jmol.script(JmolAppletA,"rotation axis x;spin on");'>x</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"rotation axis x;spin on");'>y</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"rotation axis x;spin on");'>z</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
 
 
 Select <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [255,255,255]")'>off</a>.
