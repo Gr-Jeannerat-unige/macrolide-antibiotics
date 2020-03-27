@@ -8,7 +8,7 @@ Because ergosterol is present in cell membranes of fungi, yet absent in those of
 
 ## Differences
 
-Cholesterol and ergosterol have similar shapes, but the Hax(7) which is pointing out of the plane of cholesterol is not present in ergosterol because it has a sp<sub>2</sub> hybridisation. This hydrogen atom can be <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>highlighted</a> in green in the structures of Table 1. The <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 30, atomno = 48, atomno = 50;color [0,127,127]")'>other three additional</a> H of cholesterol are probably not as important. Note the additional <a href='javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>methyl</a> of ergosterol at the end of the side chain.
+Cholesterol and ergosterol have similar shapes, but the Hax(7) which is pointing out of the plane of cholesterol is not present in ergosterol because it has a sp<sub>2</sub> hybridisation. This hydrogen atom can be <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>highlighted</a> in green in the structures of Table 1. The <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 30, atomno = 48, atomno = 50;color [0,127,127]")'>other three additional</a> H can also be highlighted. Note the additional <a href='javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>methyl</a> of ergosterol at the end of the side chain.
 
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
@@ -55,11 +55,12 @@ Set
 <a href='javascript:Jmol.script(JmolAppletB,"console")'>ergosterol console</a>.
 <code>print script("show orientation")</code>
 
-Here test:<code><a href='javascript:var syncing = document.getElementById("drive").checked;Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> 
 
-Here test2:<code><a href='javascript:var syncing = document.getElementById("drive").checked;Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> 
 
-Here sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]; sync on");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;sync on")'>on</a></code>/'>on / 
+Here * on sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]; ync * on; sync *");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;sync * on; sync *")'>on</a></code>/'>on / 
+<code><a href='javascript:Jmol.script(JmolAppletA,"sync off");Jmol.script(JmolAppletB,"sync off")'>off</a></code>/'>off 
+
+Here 2* on sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]; sync on");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;sync * on; sync *")'>on</a></code>/'>on / 
 <code><a href='javascript:Jmol.script(JmolAppletA,"sync off");Jmol.script(JmolAppletB,"sync off")'>off</a></code>/'>off 
 
 
