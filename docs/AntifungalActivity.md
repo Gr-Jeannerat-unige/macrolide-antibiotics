@@ -35,6 +35,8 @@ Spin axis
 <a href='javascript:Jmol.script(JmolAppletA,"set spinX= 0;set spinY= 0;set spinZ=10;spin on");'>Z</a>/
 <a href='javascript:Jmol.script(JmolAppletA,"set MOLECULAR spinX=10;set spinY= 0;set spinZ= 0;spin on");'>X</a>/
 <a href='javascript:Jmol.script(JmolAppletA,"set molecular spinX=10;set spinY= 0;set spinZ= 0;spin on");'>X</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"set MOLECULAR spinY=10;set spinY= 0;set spinZ= 0;spin on");'>X</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"set molecular spinY=10;set spinY= 0;set spinZ= 0;spin on");'>X</a>/
 <a href='javascript:Jmol.script(JmolAppletA,";spin {x}");'>Y</a>/
 <a href='javascript:Jmol.script(JmolAppletA,";spin {X}");'>Y</a>/
 <a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
