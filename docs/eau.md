@@ -4,8 +4,8 @@ Patience ! Certains boutons réagissement un peu lentement...
 <script type="text/javascript">
 Info = {
     script: "set antialiasDisplay true;load molecules/water.xodydata;",
-    width:600,      
-    height:500,      
+    width:300,      
+    height:200,      
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
     isableInitialConsole: true
