@@ -26,18 +26,8 @@ Ergost = {
     disableJ2SLoadMonitor: false,
     isableInitialConsole: true
 }
-document.getElementById("Cholest").reset()
-function sync() {
- var syncing = document.getElementById("drive").checked
- var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
- //jmolScript(s, "A");
- Jmol.script(JmolAppletA,s);
-}
-</script>
 
-<code><input type=checkbox id=drive onClick=sync() accessKey="1">Synchronize</code>
-<script>sync() </script>
-<a href='sync()'>attemt...</a>
+</script>
 
 |Cholesterol|Ergosterol|
 |----------|-----------|
@@ -45,7 +35,8 @@ function sync() {
 |<script>Jmol.getApplet("JmolAppletA",Cholest);</script>|<script>Jmol.getApplet("JmolAppletB",Ergost);</script>|
 |View <a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]")'>side</a>/<a href='javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]")'>top</a>|View <a href='javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;")'>side</a>/<a href='javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a>|
 
-View <code><a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8; ")'>side</a></code>/<code><a href='javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a></code>.
+View <code><a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8; ")'>side</a></code>/<code><a href='javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a></code>. Sync <code><a href='javascript:Jmol.script(JmolAppletA,"sync * on;sync * \"set syncMouse TRUE\"")'>on8</a></code>/<code><a href='javascript:Jmol.script(JmolAppletA,"sync * off")'>off</a></code>.
+
 Spin
 <code><a href='javascript:Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> /
 <code><a href='javascript:Jmol.script(JmolAppletA,"spin off");javascript:Jmol.script(JmolAppletB,"spin off")'>off</a></code>.
@@ -59,8 +50,3 @@ Set
 <a href='javascript:Jmol.script(JmolAppletA,"console")'>Cholesterol</a>/
 <a href='javascript:Jmol.script(JmolAppletB,"console")'>ergosterol console</a>.
 <code>print script("show orientation")</code>
-
-
-
-
-[Version of this page with synchronized rotation](page2.html)
