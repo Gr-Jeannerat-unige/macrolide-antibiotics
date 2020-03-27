@@ -30,13 +30,15 @@ View <a href='javascript:Jmol.script(JmolAppletA,"reset;");'>top</a>.
 
 
 Spin axis 
-<a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR X=10");'>X</a>/
-<a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Y=10");'>Y</a>/
-<a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Z=10");'>Z</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR X 10");'>X</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Y 10");'>Y</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Z 10");'>Z</a>/
 <a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
 select atomno = 30, atomno = 48, atomno = 50
 
-Highlight one carboxylate/amonium pair <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475;spacefill 200")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475;spacefill 100")'>off</a>.
+Highlight one carboxylate/amonium pair 
+<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475 ;spacefill 200;select   atomno = 476 ,  atomno = 477 ,  atomno = 478;spacefill 150")'>on</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475 ;spacefill 100;select   atomno = 476 ,  atomno = 477 ,  atomno = 478;spacefill 50")'>on</a>/
 
 Select one unit <a href='javascript:Jmol.script(JmolAppletA,"select atomno >60 ;color atoms TRANSLUCENT 0.8")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno >60 ;color atoms TRANSLUCENT 0.0")'>off</a>.
 
@@ -44,5 +46,5 @@ Set
 <a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background white\"")'> white</a>/<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'>black</a> background.
 <br><br>
 <a href='javascript:Jmol.script(JmolAppletA,"console")'>Console</a>.
-<code>print script("show orientation");show atom</code>
+<code>print script("show orientation");label</code>
 ]
