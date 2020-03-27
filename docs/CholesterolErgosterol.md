@@ -41,13 +41,16 @@ Ergost = {
 
 View <a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8; ")'>side</a>/<a href='javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a>. 
 
-Synchronized cursors <a href='javascript:Jmol.script(JmolAppletA,"sync * on;sync * \"set syncMouse TRUE\"")'>on</a>/<code><a href='javascript:Jmol.script(JmolAppletA,"sync * off")'>off</a>.
+Synchronized cursors 
+<a href='javascript:Jmol.script(JmolAppletA,"sync * on;sync * \"set syncMouse TRUE\"")'>on</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"sync * off")'>off</a>.
 
-Spin
+Spin 
 <a href='javascript:Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a> /
 <a href='javascript:Jmol.script(JmolAppletA,"spin off");javascript:Jmol.script(JmolAppletB,"spin off")'>off</a>.
 
-Highlight Hax(7) cholesterol <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>on</a>/
+Highlight Hax(7) cholesterol 
+<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>on</a>/
 <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [255,255,255]")'>off</a>.
 
 Set
