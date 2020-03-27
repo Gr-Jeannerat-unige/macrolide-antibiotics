@@ -30,8 +30,7 @@ document.getElementById("Cholest").reset()
 function sync() {
  var syncing = document.getElementById("drive").checked
  var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
- //jmolScript(s, "A");
- Jmol.script(JmolAppletA,s);
+ //Jmol.script(JmolAppletA,s);
 }
 </script>
 
