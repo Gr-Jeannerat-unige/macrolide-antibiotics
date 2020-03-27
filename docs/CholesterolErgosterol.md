@@ -29,8 +29,9 @@ Ergost = {
 document.getElementById("Cholest").reset()
 function sync() {
  var syncing = document.getElementById("drive").checked
+ //var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
  var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
- //Jmol.script(JmolAppletA,s);
+ Jmol.script(JmolAppletA,s);
 }
 </script>
 
