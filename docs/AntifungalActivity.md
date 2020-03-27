@@ -30,9 +30,9 @@ View <a href='javascript:Jmol.script(JmolAppletA,"reset;");'>top</a>.
 
 
 Spin axis 
-<a href='javascript:Jmol.script(JmolAppletA,"set spin x;speed 3;spin on");'>x</a>/
-<a href='javascript:Jmol.script(JmolAppletA,"set spin y;spin on");'>y</a>/
-<a href='javascript:Jmol.script(JmolAppletA,"set spin z;spin on");'>z</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"set spinX;speed 3;spin on");'>x</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"set spinY;spin on");'>y</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"set spinZ;spin on");'>z</a>/
 <a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
 
 
