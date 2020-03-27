@@ -20,7 +20,7 @@ Cholest = {
     isableInitialConsole: true
 }
 Ergost = {
-    script: "set antialiasDisplay true;load data/ergosterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
+    script: "set antialiasDisplay true;load data/ergosterol-3D.sdf;cartoon on;color cartoon structure;;rotate z -113.86; rotate y 135.11; rotate z -93.93;",
     width:350,      
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
@@ -35,8 +35,6 @@ Ergost = {
 |<script>Jmol.getApplet("JmolAppletA",Cholest);</script>|<script>Jmol.getApplet("JmolAppletB",Ergost);</script>|
 |View <a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]")'>side</a>/<a href='javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]")'>top</a>|View <a href='javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;")'>side</a>/<a href='javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a>|
 
-<script>javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;")</script>
-<script>javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")</script>
 <script>javascript:Jmol.script(JmolAppletA,"sync * on;sync * \"set syncMouse TRUE\"");</script>
 
 View <a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8; ")'>side</a>/<a href='javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a>. 
