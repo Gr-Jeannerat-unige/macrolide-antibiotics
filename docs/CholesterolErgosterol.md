@@ -13,14 +13,14 @@ Cholesterol and ergosterol have similar shapes, but the Hax(7) which is pointing
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
 Cholest = {
-    script: "set antialiasDisplay true;load $cholesterol;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
+    script: "set antialiasDisplay true;load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
     width:350,      
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
     isableInitialConsole: true
 }
 Ergost = {
-    script: "set antialiasDisplay true;load $ergosterol;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
+    script: "set antialiasDisplay true;load data/ergosterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
     width:350,      
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
