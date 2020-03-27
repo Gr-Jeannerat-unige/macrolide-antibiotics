@@ -60,8 +60,10 @@ Here test:<code><a href='javascript:var syncing = document.getElementById("drive
 
 Here test2:<code><a href='javascript:var syncing = document.getElementById("drive").checked;Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> 
 
-Here sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;Jmol.script(JmolAppletA,"sync on";)'>on</a></code>/'>on</a></code> 
-<code><a href='javascript:Jmol.script(JmolAppletA,"sync off")'>off</a></code>/'>off</a></code> 
+Here sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;")'>on</a></code>/'>on / 
+<code><a href='javascript:Jmol.script(JmolAppletA,"sync off")'>off</a></code>/'>off 
+
+
 Here sync2:<code><a href='javascript:Jmol.script(JmolAppletA,"sync on",Jmol.script(JmolAppletB,"sync on")'>on</a></code>/'>on</a></code> 
 
 [Version of this page with synchronized rotation](page2.html)
