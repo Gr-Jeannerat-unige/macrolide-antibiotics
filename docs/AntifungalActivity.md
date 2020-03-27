@@ -25,7 +25,7 @@ Info = {
 
 <script>Jmol.getApplet("JmolAppletA",Info);</script>
 
-View <a href='javascript:Jmol.script(JmolAppletA,"reset;");'>top</a>/<a href='javascript:Jmol.script(JmolAppletA,"reset;rotate x 90");'>side</a>. Spin <a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Z 10");'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
+View <a href='javascript:Jmol.script(JmolAppletA,"reset;");'>top</a>/<a href='javascript:Jmol.script(JmolAppletA,"reset;rotate x -90");'>side</a>. Spin <a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Z 10");'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
 
 Select one unit <a href='javascript:Jmol.script(JmolAppletA,"select atomno >60 ;color atoms TRANSLUCENT 0.8")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno >60 ;color atoms TRANSLUCENT 0.0")'>off</a>. Highlight one carboxylate/amonium pair <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475 ;spacefill 200;select   atomno = 476 ,  atomno = 477 ,  atomno = 480;spacefill 150")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475 ;spacefill 100;select   atomno = 476 ,  atomno = 477 ,  atomno = 480;spacefill 60")'>on</a>/
 
