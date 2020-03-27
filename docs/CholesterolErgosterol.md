@@ -8,7 +8,7 @@ Because ergosterol is present in cell membranes of fungi, yet absent in those of
 
 ## Differences
 
-Cholesterol and ergosterol have similar shapes, but the Hax(7) which is pointing out of the plane of cholesterol is not present in ergosterol because it has a sp<sub>2</sub> hybridisation. This hydrogen atom can be <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>highlighted</a> in green in the structures of Table 1. The <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 30, atomno = 48, atomno = 50;color [0,127,127]")'>other three additional</a> H of cholesterol are probably not as important. Note the additional <a href='javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>methyl</a> of ergosterol at the end of the side chain.
+Cholesterol and ergosterol have similar shapes. An important difference is the Hax(7) which is pointing out of the plane of cholesterol but is not present in ergosterol because if the additional double bound. This hydrogen atom (which can be <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>highlighted</a> in green in the structure) makes ergosterol more flat at the edge of ring B. The <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 30, atomno = 48, atomno = 50;color [0,127,127]")'>other three additional</a> H of cholesterol. The sidechain of orgosterol is less flexible. Note the additional <a href='javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>methyl</a> of ergosterol at the end of the side chain.
 
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
