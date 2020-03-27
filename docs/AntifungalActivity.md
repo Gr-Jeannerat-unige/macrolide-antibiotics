@@ -1,7 +1,7 @@
 # A new proposition of mecanism of antifungal activity
 ## Opening of the hemiactal
 
-![1111](images/open_hemi.png)
+![333311111](images/open_hemi.png)
 
 ![a2222ll](images/assembling.png)
 
@@ -10,16 +10,16 @@
 
 ![7777](images/Fig_7_decamer.png)
 
+
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
 Info = {
-    script: "set antialiasDisplay true;load molecules/sym8.sdf;cartoon on;color cartoon structure;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
+    script: "set antialiasDisplay true;load molecules/sym8.mol;cartoon on;color cartoon structure;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
     width:600,      
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
     isableInitialConsole: true
 </script>
-
 
 <script>Jmol.getApplet("JmolAppletA",Info);</script>
 
