@@ -58,7 +58,7 @@ Set
 
 
 
-Here * on sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]; ync * on; sync *");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;sync * on; sync *")'>on</a></code>/'>on / 
+Here * on sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]; ");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;sync on")'>on</a></code>/'>on / 
 <code><a href='javascript:Jmol.script(JmolAppletA,"sync off");Jmol.script(JmolAppletB,"sync off")'>off</a></code>/'>off 
 
 Here 2* on sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]; sync on");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;sync * on; sync *")'>on</a></code>/'>on / 
