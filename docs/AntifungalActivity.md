@@ -34,13 +34,15 @@ Spin axis
 <a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Y=10");'>Y</a>/
 <a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Z=10");'>Z</a>/
 <a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
+select atomno = 30, atomno = 48, atomno = 50
 
+Select one pair of ion pair <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475;spacefill 200")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475;spacefill 100")'>off</a>.
 
-Select <a href='javascript:Jmol.script(JmolAppletA,"select atomno > 60;translucent;color [0,255,0]")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color auto")'>off</a>.
+Select one unit <a href='javascript:Jmol.script(JmolAppletA,"select atomno >60 ;color atoms TRANSLUCENT 0.8")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno >60 ;color atoms TRANSLUCENT 0.0")'>off</a>.
 
 Set
 <a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background white\"")'> white</a>/<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'>black</a> background.
 <br><br>
-<a href='javascript:Jmol.script(JmolAppletA,"console")'>Cholesterol console</a>.
+<a href='javascript:Jmol.script(JmolAppletA,"console")'>Console</a>.
 <code>print script("show orientation")</code>
 ]
