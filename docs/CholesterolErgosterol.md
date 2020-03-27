@@ -35,8 +35,9 @@ function sync() {
 }
 </script>
 
-<input type=checkbox id=drive onClick=sync() accessKey="1">Synchronize
-<a href='sync()'>attemt...</a>/
+<code><input type=checkbox id=drive onClick=sync() accessKey="1">Synchronize</code>
+<script>sync() </script>
+<a href='sync()'>attemt...</a>
 
 |Cholesterol|Ergosterol|
 |----------|-----------|
