@@ -55,4 +55,16 @@ Set
 <a href='javascript:Jmol.script(JmolAppletA,"console")'>Cholesterol</a>/
 <a href='javascript:Jmol.script(JmolAppletB,"console")'>ergosterol console</a>.
 <code>print script("show orientation")</code>
+
+Here test:<code><a href='javascript:var syncing = document.getElementById("drive").checked;Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> 
+
+Here test2:<code><a href='javascript:var syncing = document.getElementById("drive").checked;Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> 
+
+Here test4:<code><a href='javascript:var syncing = document.getElementById("drive").checked;var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off");Jmol.script(JmolAppletA,s);'>on</a></code> 
+
+
+var syncing = document.getElementById("drive").checked
+ var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off")
+ //jmolScript(s, "A");
+ Jmol.script(JmolAppletA,s);
 [Version of this page with synchronized rotation](page2.html)
