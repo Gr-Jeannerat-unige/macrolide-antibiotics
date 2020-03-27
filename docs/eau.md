@@ -1,5 +1,5 @@
 ## Eau en 3D
-Patience... chargement et boutons un peu lentement...
+Patience... chargement et boutons (en bas de page) un peu lents...
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
 Info = {
