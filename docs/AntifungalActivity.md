@@ -36,7 +36,7 @@ Spin axis
 <a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
 
 
-Select <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 1-40;color [0,255,0]")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [255,255,255]")'>off</a>.
+Select <a href='javascript:Jmol.script(JmolAppletA,"select atomno <= 100;color [0,255,0]")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [255,255,255]")'>off</a>.
 
 Set
 <a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background white\"")'> white</a>/<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'>black</a> background.
