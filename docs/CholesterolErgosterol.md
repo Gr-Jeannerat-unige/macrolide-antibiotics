@@ -52,7 +52,7 @@ Highlight Hax(7) cholesterol <a href='javascript:Jmol.script(JmolAppletA,"select
 
 Set
 <a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background white\"")'> white</a>/
-<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'> black</a> background.
+<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'>black</a> background.
 <br><br>
 <a href='javascript:Jmol.script(JmolAppletA,"console")'>Cholesterol</a>/
 <a href='javascript:Jmol.script(JmolAppletB,"console")'>ergosterol console</a>.
