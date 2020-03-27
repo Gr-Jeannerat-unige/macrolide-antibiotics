@@ -34,7 +34,9 @@ function sync() {
  Jmol.script(JmolAppletA,s);
 }
 </script>
+
 <input type=checkbox id=drive onClick=sync() accessKey="1">Synchronize
+<a href='sync()'>attemt...</a>/
 
 |Cholesterol|Ergosterol|
 |----------|-----------|
@@ -57,27 +59,7 @@ Set
 <a href='javascript:Jmol.script(JmolAppletB,"console")'>ergosterol console</a>.
 <code>print script("show orientation")</code>
 
-Here test:<code><a href='javascript:var syncing = document.getElementById("drive").checked;Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> 
-
-Here test2:<code><a href='javascript:var syncing = document.getElementById("drive").checked;Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> 
-
-Here sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]; sync on");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;sync on")'>on</a></code>/'>on / 
-<code><a href='javascript:Jmol.script(JmolAppletA,"sync off");Jmol.script(JmolAppletB,"sync off")'>off</a></code>/'>off 
 
 
-Here no reset :<code><a href='javascript:JmolAppletA," rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]; sync on");javascript:Jmol.script(JmolAppletB,"rotate z -179.67; rotate y 93.62; rotate z -93.8;sync on")'>on</a></code>/'>on / 
-<code><a href='javascript:Jmol.script(JmolAppletA,"sync off")'>off</a></code>/'>off 
-
-
-
-Here sync only one syncA:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]; sync on");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;")'>on</a></code>/'>on / 
-<code><a href='javascript:Jmol.script(JmolAppletA,"sync off")'>off</a></code>/'>off 
-
-
-
-Here sync4 only one sincB:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]; ");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;sync on")'>on</a></code>/'>on / 
-<code><a href='javascript:Jmol.script(JmolAppletA,"sync off")'>off</a></code>/'>off 
-
-Here sync2222:<code><a href='javascript:Jmol.script(JmolAppletA,"sync on",Jmol.script(JmolAppletB,"sync on")'>on</a></code>/'>on</a></code> 
 
 [Version of this page with synchronized rotation](page2.html)
