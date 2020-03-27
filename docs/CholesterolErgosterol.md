@@ -41,7 +41,7 @@ function sync() {
 |<script>Jmol.getApplet("JmolAppletA",Cholest);</script>|<script>Jmol.getApplet("JmolAppletB",Ergost);</script>|
 |View <a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]")'>side</a>/<a href='javascript:Jmol.script(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]")'>top</a>|View <a href='javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;")'>side</a>/<a href='javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a>|
 
-View <code><a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;")'>side</a></code>/<code><a href='javascript:jmolScript(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a></code>.
+View <code><a href='javascript:Jmol.script(JmolAppletA,"sync on";JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;")'>side</a></code>/<code><a href='javascript:jmolScript(JmolAppletA,"reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a></code>.
 Spin
 <code><a href='javascript:Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> /
 <code><a href='javascript:Jmol.script(JmolAppletA,"spin off");javascript:Jmol.script(JmolAppletB,"spin off")'>off</a></code>.
@@ -60,10 +60,9 @@ Here test:<code><a href='javascript:var syncing = document.getElementById("drive
 
 Here test2:<code><a href='javascript:var syncing = document.getElementById("drive").checked;Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a></code> 
 
-Here test4:<code><a href='javascript:var syncing = document.getElementById("drive").checked;var s = (syncing ? "sync * on;sync * \"set syncMouse TRUE\"": "sync * off");Jmol.script(JmolAppletA,s);'>on</a></code> 
-Here sync:<code><a href='javascript:Jmol.script(JmolAppletA,"sync")'>on</a></code>/'>on</a></code> 
-Here sync:<code><a href='javascript:Jmol.script(JmolAppletA,"sync on")'>on</a></code>/'>on</a></code> 
-Here sync:<code><a href='javascript:Jmol.script(JmolAppletA,"sync off")'>on</a></code>/'>on</a></code> 
+Here sync:<code><a href='javascript:JmolAppletA,"reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]");javascript:Jmol.script(JmolAppletB,"reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;Jmol.script(JmolAppletA,"sync on";)'>on</a></code>/'>on</a></code> 
+<code><a href='javascript:Jmol.script(JmolAppletA,"sync off")'>off</a></code>/'>off</a></code> 
+Here sync2:<code><a href='javascript:Jmol.script(JmolAppletA,"sync on",Jmol.script(JmolAppletB,"sync on")'>on</a></code>/'>on</a></code> 
 
 
 var syncing = document.getElementById("drive").checked
