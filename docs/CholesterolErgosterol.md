@@ -1,6 +1,6 @@
 ## Cholesterol and ergosterol
-[
-Sterols are found in the cell membranes of many living organisms. [Cholesterol](https://en.wikipedia.org/wiki/Cholesterol) is found in cell membranes of animals, [ergosterol](https://en.wikipedia.org/wiki/Ergosterol) in fungi and protozoa, and [phytosterols](https://en.wikipedia.org/wiki/Phytosterol) in plants.
+
+The cell membranes of many living organisms contain sterols. [Cholesterol](https://en.wikipedia.org/wiki/Cholesterol) is found in cell membranes of animals, [ergosterol](https://en.wikipedia.org/wiki/Ergosterol) in fungi and protozoa, and [phytosterols](https://en.wikipedia.org/wiki/Phytosterol) (including [campesterol](https://en.wikipedia.org/wiki/Campesterol), [sitosterol](https://en.wikipedia.org/wiki/Sitosterol), and [stigmasterol](https://en.wikipedia.org/wiki/Sitosterol)) in plants.
 
 ## Relevance of macrolide antibiotics
 
@@ -13,14 +13,14 @@ Cholesterol and ergosterol have similar shapes, but the Hax(7) which is pointing
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
 Cholest = {
-    script: "set antialiasDisplay true;load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
+    script: "set antialiasDisplay true;load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
     width:350,      
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
     isableInitialConsole: true
 }
 Ergost = {
-    script: "set antialiasDisplay true;load data/ergosterol-3D.sdf;cartoon on;color cartoon structure;;rotate z -113.86; rotate y 135.11; rotate z -93.93;",
+    script: "set antialiasDisplay true;load data/ergosterol-3D.sdf;cartoon on;color cartoon structure;rotate z -113.86; rotate y 135.11; rotate z -93.93;",
     width:350,      
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
