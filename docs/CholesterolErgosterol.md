@@ -35,8 +35,8 @@ function sync() {
 }
 </script>
 
-| Cholesterol| Ergosterol|
-|----------|---------------------|
+|Cholesterol|Ergosterol|
+|----------|-----------|
 | <center><img src="data/Cholesterol_2D.svg.png" alt="cholesterol" width="200" /></center> | <center><img src="data/Ergosterol_2D.svg.png" alt="ergosterol" width="200" /></center>  |
 | <script>Jmol.getApplet("JmolAppletA",Cholest);</script> | <script>Jmol.getApplet("JmolAppletB",Ergost);</script> |
 | View <a href='javascript:Jmol.script("JmolAppletA","reset; rotate z 33.34; rotate y 125.99; rotate z -67.45;select atomno = 41;color [0,255,0]")'>side</a>/<a href='javascript:Jmol.script("JmolAppletA","reset;rotate z 118.48; rotate y 117.66; rotate z -47.64;select atomno = 41;color [0,255,0]")'>top</a> | View <a href='javascript:Jmol.script("JmolAppletB","reset; rotate z -179.67; rotate y 93.62; rotate z -93.8;")'>side</a>/<a href='javascript:Jmol.script("JmolAppletB","reset; rotate z -113.86; rotate y 135.11; rotate z -93.93;")'>top</a> |
