@@ -1,1 +1,1 @@
-[Follow this link](CholesterolErgosterol)
+[Follow this link!](CholesterolErgosterol)
