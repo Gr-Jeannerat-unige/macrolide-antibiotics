@@ -39,7 +39,7 @@ table:
 
         //this function will be called after the JavaScriptApplet code has been loaded.
         function jsmeOnLoad() {
-            jsmeApplet = new JSApplet.JSME("jsme_container", "180px", "140px", {
+            jsmeApplet = new JSApplet.JSME("jsme_container", "580px", "340px", {
                 "options": "depict multipart reaction border"
             });
 // other options : https://www.molinspiration.com/jme/doc/jme_functions.html number
