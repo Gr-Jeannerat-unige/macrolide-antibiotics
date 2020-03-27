@@ -39,7 +39,7 @@ View <a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate 
 
 Spin model 
 <a href='javascript:Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"spin off");javascript:Jmol.script(JmolAppletB,"spin off");javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>off</a>. Highlight differences 
-<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0];select atomno = 30, atomno = 48, atomno = 50;color [0,127,127]");;javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [255,255,255]");javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [255,255,255]")'>off</a>.
+<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0];select atomno = 30, atomno = 48, atomno = 50;color [0,127,127]");;javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [255,255,255];select atomno = 30, atomno = 48, atomno = 50;color [255,255,255]");javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [255,255,255]")'>off</a>.
 
 Set
 <a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background white\"")'> white</a>/<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'>black</a> background.
