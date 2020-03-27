@@ -36,7 +36,7 @@ Spin axis
 <a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
 select atomno = 30, atomno = 48, atomno = 50
 
-Select one pair of ion pair <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475;spacefill 200")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475;spacefill 100")'>off</a>.
+Highlight one carboxylate/amonium pair <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475;spacefill 200")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 429 , atomno = 427 , atomno = 428 ,  atomno = 475;spacefill 100")'>off</a>.
 
 Select one unit <a href='javascript:Jmol.script(JmolAppletA,"select atomno >60 ;color atoms TRANSLUCENT 0.8")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno >60 ;color atoms TRANSLUCENT 0.0")'>off</a>.
 
