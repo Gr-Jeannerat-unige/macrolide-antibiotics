@@ -31,7 +31,8 @@ View <a href='javascript:Jmol.script(JmolAppletA,"reset;");'>top</a>.
 
 Spin axis 
 <a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR X=10");'>X</a>/
- 
+<a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Y=10");'>Y</a>/
+<a href='javascript:Jmol.script(JmolAppletA,"; spin MOLECULAR Z=10");'>Z</a>/
 <a href='javascript:Jmol.script(JmolAppletA,"spin off");'>off</a>. 
 
 
