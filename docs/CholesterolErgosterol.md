@@ -15,7 +15,7 @@ Cholesterol and ergosterol have similar shapes. An important difference is the H
 Cholest = {
     script: "set antialiasDisplay true;load data/cholesterol-3D.sdf;cartoon on;color cartoon structure;rotate z 118.48; rotate y 117.66; rotate z -47.64;",
     width:350,      
-    height:250,      
+    height:200,      
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
     isableInitialConsole: true
@@ -23,7 +23,7 @@ Cholest = {
 Ergost = {
     script: "set antialiasDisplay true;load data/ergosterol-3D.sdf;cartoon on;color cartoon structure;rotate z -113.86; rotate y 135.11; rotate z -93.93;",
     width:350,    
-    height:250,      
+    height:200,      
     j2sPath: "src/j2s",   
     disableJ2SLoadMonitor: false,
     isableInitialConsole: true
