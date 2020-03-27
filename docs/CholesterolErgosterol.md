@@ -8,7 +8,7 @@ Because ergosterol is present in cell membranes of fungi, yet absent in those of
 
 ## Differences
 
-Cholesterol and ergosterol have similar shapes. An important difference is the Hax(7) which is pointing out of the plane of cholesterol but is not present in ergosterol because of the additional double bound. This hydrogen atom (which can be <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>highlighted</a> in green in the structure) makes ergosterol more flat at the edge of ring B. The <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 30, atomno = 48, atomno = 50;color [0,127,127]")'>other three additional</a> H of cholesterol can also be highlighted. The sidechain of ergosterol is less flexible because of the double bound and the additional <a href='javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>methyl</a> of ergosterol at the end of the side chain.
+Cholesterol and ergosterol have similar shapes. An important difference is the Hax(7) which is pointing out of the plane of cholesterol but is not present in ergosterol because of the additional double bound. This hydrogen atom (which can be <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>highlighted</a> in green in the structure) makes ergosterol more flat at the edge of ring B. The <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 30, atomno = 48, atomno = 50;color [0,127,127]")'>other three additional</a> H of cholesterol can also be highlighted. The sidechain of ergosterol is less flexible because of the double bound and the additional <a href='javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>methyl</a>.
 
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
@@ -40,8 +40,8 @@ View <a href='javascript:Jmol.script(JmolAppletA,"reset; rotate z 33.34; rotate 
 <a href='javascript:Jmol.script(JmolAppletA,"sync * on;sync * \"set syncMouse TRUE\"")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"sync * off")'>off</a>.
 
 Spin model 
-<a href='javascript:Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"spin off");javascript:Jmol.script(JmolAppletB,"spin off")'>off</a>. Highlight Hax(7) cholesterol 
-<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0]")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [255,255,255]")'>off</a>.
+<a href='javascript:Jmol.script(JmolAppletA,"spin on");javascript:Jmol.script(JmolAppletB,"spin on")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"spin off");javascript:Jmol.script(JmolAppletB,"spin off");javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>off</a>. Highlight differences 
+<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0];select atomno = 30, atomno = 48, atomno = 50;color [0,127,127]");;javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0]")'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [255,255,255]");javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [255,255,255]")'>off</a>.
 
 Set
 <a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background white\"")'> white</a>/<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'>black</a> background.
