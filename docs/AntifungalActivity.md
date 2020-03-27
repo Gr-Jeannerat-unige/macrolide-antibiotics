@@ -44,5 +44,5 @@ Set
 <a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background white\"")'> white</a>/<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'>black</a> background.
 <br><br>
 <a href='javascript:Jmol.script(JmolAppletA,"console")'>Console</a>.
-<code>print script("show orientation")</code>
+<code>print script("show orientation");show atom</code>
 ]
