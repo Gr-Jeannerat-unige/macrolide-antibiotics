@@ -9,9 +9,6 @@ Work in progress!
 
 [macrolideAntibiotics](macrolideAntibiotics)
 
-
-[water](eau)
-
 More coming soon...
 
 <sub>[test pages](page1)</sub>
