@@ -48,7 +48,7 @@ Spin model
 Set
 <a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background white\"")'> white</a>/<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background black\"")'>black</a> background.
 
-Electronic density <a href='javascript:Jmol.script(JmolAppletA,"select all ;;if ({atomno < 10}.partialcharge == 0){calculate partialcharge};isosurface vdw map mep;");javascript:Jmol.script(JmolAppletB,"select all ;;if ({atomno < 10}.partialcharge == 0){calculate partialcharge};isosurface vdw map mep;");'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select all;isosurface off;");javascript:Jmol.script(JmolAppletB,"select all;isosurface off");'>off</a>.
+Electronic densities <a href='javascript:Jmol.script(JmolAppletA,"select all ;;if ({atomno < 10}.partialcharge == 0){calculate partialcharge};isosurface vdw map mep;");javascript:Jmol.script(JmolAppletB,"select all ;;if ({atomno < 10}.partialcharge == 0){calculate partialcharge};isosurface vdw map mep;");'>on</a>/<a href='javascript:Jmol.script(JmolAppletA,"select all;isosurface off;");javascript:Jmol.script(JmolAppletB,"select all;isosurface off");'>off</a>.
 
 <a href='javascript:Jmol.script(JmolAppletA,"console")'>Cholesterol</a>/<a href='javascript:Jmol.script(JmolAppletB,"console")'>ergosterol</a> console.
 <code>print script("show orientation")</code>
