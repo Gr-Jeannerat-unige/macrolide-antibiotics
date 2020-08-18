@@ -6,7 +6,7 @@ The cell membranes of many living organisms contain sterols. [Cholesterol](https
 
 Because ergosterol is present in cell membranes of fungi, yet absent in those of animals, it is a useful target for antifungal drugs.<sup>[Ref](https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs)</sup> Macrolide antibiotics such as Amphotericin B are target of ergosterol.<sup>[Ref](https://academic.oup.com/jac/article/49/suppl_1/7/2473430)</sup>
 
-## Differences
+## Differences between cholesterol and ergosterol
 
 Cholesterol and ergosterol have similar shapes. An important difference is the Hax(7) which is pointing out of the plane of cholesterol but is not present in ergosterol because of the additional double bound. This hydrogen atom (which can be <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 41;color [0,255,0];spacefill 100")'>highlighted</a> in green in the structure) makes ergosterol thinner at the edge of ring B. We believe this is to be the key difference with respect to the formation of pore membranes with macrolide antibiotics. The <a href='javascript:Jmol.script(JmolAppletA,"select atomno = 30, atomno = 48, atomno = 50;color [0,127,127];spacefill 100")'>other three additional</a> H of cholesterol can also be highlighted. The sidechain of ergosterol is less flexible because of the double bound and the additional <a href='javascript:Jmol.script(JmolAppletB,"select atomno = 65, atomno = 66, atomno = 67;color [127,127,0];spacefill 100")'>methyl</a> and shifted down a bit.
 

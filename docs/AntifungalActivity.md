@@ -1,13 +1,33 @@
 # A new proposition of mecanism of antifungal activity
-## Opening of the hemiacetal
+## Opening of the hemiactal
 
-Hemiacetals are not very stable. In cyclic coumpounds they are often at equilibrium with their open forms. 
+
+Hemiacetals are not very stable (see left, below). The C-O bond can easily break to form a ketone and an alcool (see right, below). This is faciliated by the presence of a OH group, or other catalysts exchanging protons.
+
+![333333](images/Fig3.png)
+
+In cyclic coumpounds, hemiacetals are usually at equilibrium with their open form. 
+
+The [mutarotation](https://en.wikipedia.org/wiki/Glucose#Mutarotation) of glucose is very well know. The cyclic &alpha;-glucose (36%) and &beta;-glucose (64%)), two hemiacetals, slowly exchange via the open "keyto" form (< 1%).
 
 ![333311111](images/open_hemi.png)
-The mutarotation of glucose is very well know. Two hemiacetals &alpha;- and &beta;-glucose) are at equilibrium via the open form.
+
+<img src="images/open_hemi.png" alt="drawing" width="600"/>
+
+In macrolide antibiotics of the amphotericin family, there is always an OH group making it possible to form the stabilizing 6-membered ring. See carbons 1 in the Figure below. Also on 5...
+
+The active form of the drug may simply be this open form.
+
+It could also be that another hemiacetal is formed, possibly with ergosterol, or with via poly-hemiketalization.
+
+
+
+<img src="images/assembling.png" alt="drawing" width="600"/>
+
+
 ![a2222ll](images/assembling.png)
 
-
+A model based on the later hypothesis is shown below.
 
 ![7777](images/Fig_7_decamer.png)
 
