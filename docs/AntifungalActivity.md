@@ -48,4 +48,3 @@ Set<a href='javascript:Jmol.script(JmolAppletA,"script APPLET * \"background whi
 
 <a href='javascript:Jmol.script(JmolAppletA,"console")'>Console</a>.
 <code>print script("show orientation");label</code>
-]
