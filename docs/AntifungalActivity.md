@@ -15,11 +15,11 @@ In macrolide antibiotics of the amphotericin family, there is always an OH group
 
 The active form of the drug may simply be this open form.
 
-It could also be that another hemiacetal is formed, possibly with ergosterol, or with via poly-hemiketalization.
+It could also be that another hemiacetal is formed, possibly with ergosterol, or through hemiketalization.
 
 <img src="images/assembling.png" alt="drawing" width="600"/>
 
-A model based on the later hypothesis is shown below. The ergosterol molecules are highlighted in dashed frames.
+A model based on the later hypothesis is shown here. The ergosterol molecules are highlighted in dashed frames. Their edge shape makes the intercalation possible (contrast with [cholesterol](CholesterolErgosterol))
 
 
 ![7777](images/Fig_7_decamer.png)
