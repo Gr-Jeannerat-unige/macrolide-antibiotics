@@ -10,7 +10,6 @@ In cyclic coumpounds, hemiacetals are usually at equilibrium with their open for
 
 The [mutarotation](https://en.wikipedia.org/wiki/Glucose#Mutarotation) of glucose is very well know. The cyclic &alpha;-glucose (36%) and &beta;-glucose (64%)), two hemiacetals, slowly exchange via the open "keyto" form (< 1%).
 
-![333311111](images/open_hemi.png)
 
 <img src="images/open_hemi.png" alt="drawing" width="200"/>
 
@@ -20,12 +19,7 @@ The active form of the drug may simply be this open form.
 
 It could also be that another hemiacetal is formed, possibly with ergosterol, or with via poly-hemiketalization.
 
-
-
-<img src="images/assembling.png" alt="drawing" width="200"/>
-
-
-![a2222ll](images/assembling.png)
+<img src="images/assembling.png" alt="drawing" width="300"/>
 
 A model based on the later hypothesis is shown below.
 
