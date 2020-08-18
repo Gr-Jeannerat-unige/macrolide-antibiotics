@@ -12,7 +12,7 @@ The [mutarotation](https://en.wikipedia.org/wiki/Glucose#Mutarotation) of glucos
 
 ![333311111](images/open_hemi.png)
 
-<img src="images/open_hemi.png" alt="drawing" width="600"/>
+<img src="images/open_hemi.png" alt="drawing" width="200"/>
 
 In macrolide antibiotics of the amphotericin family, there is always an OH group making it possible to form the stabilizing 6-membered ring. See carbons 1 in the Figure below. Also on 5...
 
@@ -22,7 +22,7 @@ It could also be that another hemiacetal is formed, possibly with ergosterol, or
 
 
 
-<img src="images/assembling.png" alt="drawing" width="600"/>
+<img src="images/assembling.png" alt="drawing" width="200"/>
 
 
 ![a2222ll](images/assembling.png)
