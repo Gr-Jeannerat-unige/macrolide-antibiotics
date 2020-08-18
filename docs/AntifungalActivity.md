@@ -1,6 +1,9 @@
 # A new proposition of mecanism of antifungal activity
-## Opening of the hemiactal
+Since the X-ray structure (of ...) was published as hemiacetal in 1973?, the fact they may be open was never mentionned again.
+We believe that opening the hemiacetal was neglected and explains the abscence of good model of the selectivity and structure of the complexes.
+TO BE WORKED ON....
 
+## Opening of the hemiactal
 
 Hemiacetals (left in B) are not very stable. The C-O bond can easily break to form a ketone and an alcool (right in B). This is faciliated by the presence of a OH group, or other catalysts exchanging protons. The two have almost the same energy (1.2 kcal difference), and the barrier is less than 20 kcal. (Calculated using B3LYP...)
 
@@ -8,10 +11,11 @@ Hemiacetals (left in B) are not very stable. The C-O bond can easily break to fo
 
 In cyclic coumpounds, hemiacetals are usually at equilibrium with their open form. For example, glucose undergoes [mutarotation](https://en.wikipedia.org/wiki/Glucose#Mutarotation), a process during which the cyclic &alpha;-glucose (36%) and &beta;-glucose (64%) - two hemiacetals) slowly exchange via the open "*keto*" form (< 1%).
 
+## Opening macrolides antibiotics
+
 In macrolide antibiotics of the amphotericin family, there is always an OH group making it possible to form the stabilizing 6-membered ring. See carbons 1 in the Figure below. Also on 5...
 
 <img src="images/open_hemi.png" alt="drawing" width="500"/>
-
 
 The active form of the drug may simply be this open form.
 
