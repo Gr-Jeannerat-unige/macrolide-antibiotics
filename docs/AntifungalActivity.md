@@ -1,12 +1,13 @@
 # A new proposition of mecanism of antifungal activity
-## Opening of the hemiactal
+## Opening of the hemiacetal
+
+Hemiacetals are not very stable. In cyclic coumpounds they are often at equilibrium with their open forms. 
 
 ![333311111](images/open_hemi.png)
-
+The mutarotation of glucose is very well know. Two hemiacetals &alpha;- and &beta;-glucose) are at equilibrium via the open form.
 ![a2222ll](images/assembling.png)
 
 
-![333333](images/Fig3.png)
 
 ![7777](images/Fig_7_decamer.png)
 
