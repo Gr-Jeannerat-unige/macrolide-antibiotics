@@ -2,18 +2,16 @@
 ## Opening of the hemiactal
 
 
-Hemiacetals are not very stable (see left, below). The C-O bond can easily break to form a ketone and an alcool (see right, below). This is faciliated by the presence of a OH group, or other catalysts exchanging protons.
+Hemiacetals (left in B) are not very stable. The C-O bond can easily break to form a ketone and an alcool (right in B). This is faciliated by the presence of a OH group, or other catalysts exchanging protons. The two have almost the same energy (1.2 kcal difference), and the barrier is less than 20 kcal. (Calcualted using B3LYP...)
 
 ![333333](images/Fig3.png)
 
-In cyclic coumpounds, hemiacetals are usually at equilibrium with their open form. 
+In cyclic coumpounds, hemiacetals are usually at equilibrium with their open form. For example, glucose undergoes [mutarotation](https://en.wikipedia.org/wiki/Glucose#Mutarotation), a process during which the cyclic &alpha;-glucose (36%) and &beta;-glucose (64%) - two hemiacetals) slowly exchange via the open "*keto*" form (< 1%).
 
-The [mutarotation](https://en.wikipedia.org/wiki/Glucose#Mutarotation) of glucose is very well know. The cyclic &alpha;-glucose (36%) and &beta;-glucose (64%)), two hemiacetals, slowly exchange via the open "keyto" form (< 1%).
-
+In macrolide antibiotics of the amphotericin family, there is always an OH group making it possible to form the stabilizing 6-membered ring. See carbons 1 in the Figure below. Also on 5...
 
 <img src="images/open_hemi.png" alt="drawing" width="500"/>
 
-In macrolide antibiotics of the amphotericin family, there is always an OH group making it possible to form the stabilizing 6-membered ring. See carbons 1 in the Figure below. Also on 5...
 
 The active form of the drug may simply be this open form.
 
