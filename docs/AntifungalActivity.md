@@ -11,7 +11,7 @@ In cyclic coumpounds, hemiacetals are usually at equilibrium with their open for
 The [mutarotation](https://en.wikipedia.org/wiki/Glucose#Mutarotation) of glucose is very well know. The cyclic &alpha;-glucose (36%) and &beta;-glucose (64%)), two hemiacetals, slowly exchange via the open "keyto" form (< 1%).
 
 
-<img src="images/open_hemi.png" alt="drawing" width="200"/>
+<img src="images/open_hemi.png" alt="drawing" width="500"/>
 
 In macrolide antibiotics of the amphotericin family, there is always an OH group making it possible to form the stabilizing 6-membered ring. See carbons 1 in the Figure below. Also on 5...
 
@@ -19,7 +19,7 @@ The active form of the drug may simply be this open form.
 
 It could also be that another hemiacetal is formed, possibly with ergosterol, or with via poly-hemiketalization.
 
-<img src="images/assembling.png" alt="drawing" width="300"/>
+<img src="images/assembling.png" alt="drawing" width="600"/>
 
 A model based on the later hypothesis is shown below. The ergosterol molecules are highlighted in dashed frames.
 
