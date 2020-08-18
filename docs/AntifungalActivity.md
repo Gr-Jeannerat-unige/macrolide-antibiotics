@@ -24,7 +24,7 @@ A model based on the later hypothesis is shown here. The ergosterol molecules ar
 
 ![7777](images/Fig_7_decamer.png)
 
-This 3D model only shows the top corona (no ergosterol).
+This 3D model only shows the top corona (no ergosterol). Observe the salt bridges and the favorable position of the (5)OH.
 
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
