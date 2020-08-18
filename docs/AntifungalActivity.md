@@ -2,7 +2,7 @@
 ## Opening of the hemiactal
 
 
-Hemiacetals (left in B) are not very stable. The C-O bond can easily break to form a ketone and an alcool (right in B). This is faciliated by the presence of a OH group, or other catalysts exchanging protons. The two have almost the same energy (1.2 kcal difference), and the barrier is less than 20 kcal. (Calcualted using B3LYP...)
+Hemiacetals (left in B) are not very stable. The C-O bond can easily break to form a ketone and an alcool (right in B). This is faciliated by the presence of a OH group, or other catalysts exchanging protons. The two have almost the same energy (1.2 kcal difference), and the barrier is less than 20 kcal. (Calculated using B3LYP...)
 
 ![333333](images/Fig3.png)
 
