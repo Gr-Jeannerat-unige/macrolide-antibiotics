@@ -21,10 +21,12 @@ It could also be that another hemiacetal is formed, possibly with ergosterol, or
 
 <img src="images/assembling.png" alt="drawing" width="300"/>
 
-A model based on the later hypothesis is shown below.
+A model based on the later hypothesis is shown below. The ergosterol molecules are highlighted in dashed frames.
+
 
 ![7777](images/Fig_7_decamer.png)
 
+This 3D model only shows the top corona (no ergosterol).
 
 <script type="text/javascript" src="src/JSmol.min.js"></script>
 <script type="text/javascript">
